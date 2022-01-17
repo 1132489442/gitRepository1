@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T07:13:40.217Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="78GuBsJy_4la6KIh1irY" version="16.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-17T07:18:58.765Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="OB2xnb5zMwmW6gOKAjx8" version="16.2.7" type="github" pages="4">
   <diagram id="umNzM8Ve97_fDtR-dAsz" name="库存盘点时序图">
     <mxGraphModel dx="813" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -69,7 +69,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uT7HqaZZkiz_ikNXBzii" name="库存盘点行为图">
-    <mxGraphModel dx="1422" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="cGxvXAa2omujSZtcGAt--0" />
         <mxCell id="cGxvXAa2omujSZtcGAt--1" parent="cGxvXAa2omujSZtcGAt--0" />
@@ -198,6 +198,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="615" y="640" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Hreq53y_PI7lOK3DhGQt-12" value="生成库存盘点-行为图" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=120;height=20;" vertex="1" parent="cGxvXAa2omujSZtcGAt--1">
+          <mxGeometry x="190" y="120" width="850" height="620" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
