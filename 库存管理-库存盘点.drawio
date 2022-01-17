@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T06:42:09.931Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="J1O16Y-FfNfqSqNtpDhS" version="16.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-17T06:43:36.898Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="sk-TaT7dX8rNzK8jFH4N" version="16.2.7" type="github" pages="4">
   <diagram id="umNzM8Ve97_fDtR-dAsz" name="库存盘点时序图">
     <mxGraphModel dx="1422" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -205,10 +205,25 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ERK7xvkID-KD6nBVZm7_" name="库存盘点事件设计">
-    <mxGraphModel dx="1096" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="438" dy="230" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="gziwdHdqzvuFapXi7QN_-0" />
         <mxCell id="gziwdHdqzvuFapXi7QN_-1" parent="gziwdHdqzvuFapXi7QN_-0" />
+        <mxCell id="Gc-y63EInRcP4BolEjkP-0" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=#B9E0A5;" vertex="1" parent="gziwdHdqzvuFapXi7QN_-1">
+          <mxGeometry x="240" y="240" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Gc-y63EInRcP4BolEjkP-1" value="库存盘点事件流转" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="gziwdHdqzvuFapXi7QN_-1">
+          <mxGeometry x="255" y="250" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Gc-y63EInRcP4BolEjkP-2" value="生成盘点清单" style="endArrow=block;endSize=10;endFill=0;html=1;rounded=0;" edge="1" parent="gziwdHdqzvuFapXi7QN_-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="239.99999999999977" y="359.5" as="sourcePoint" />
+            <mxPoint x="369.9999999999998" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gc-y63EInRcP4BolEjkP-3" value="已生成" style="html=1;fillColor=#FFFFFF;" vertex="1" parent="gziwdHdqzvuFapXi7QN_-1">
+          <mxGeometry x="370" y="335" width="110" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
