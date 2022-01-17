@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T07:18:58.765Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="OB2xnb5zMwmW6gOKAjx8" version="16.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-17T07:19:12.861Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="U5rVE4gqk7k6ju3SkexW" version="16.2.7" type="github" pages="4">
   <diagram id="umNzM8Ve97_fDtR-dAsz" name="库存盘点时序图">
     <mxGraphModel dx="813" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -206,7 +206,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xGGEeYQ9SPVqYbfntmPY" name="库存盘点聚合根">
-    <mxGraphModel dx="1566" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2031" dy="1096" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="S36UJJU6O8qHxqdBotNk-0" />
         <mxCell id="S36UJJU6O8qHxqdBotNk-1" parent="S36UJJU6O8qHxqdBotNk-0" />
@@ -434,7 +434,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ERK7xvkID-KD6nBVZm7_" name="库存盘点事件设计">
-    <mxGraphModel dx="756" dy="397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="gziwdHdqzvuFapXi7QN_-0" />
         <mxCell id="gziwdHdqzvuFapXi7QN_-1" parent="gziwdHdqzvuFapXi7QN_-0" />
