@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T07:22:12.280Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" version="16.2.7" etag="GSD8mWBBK9YD32S7Xmez" type="github"><diagram id="YrW79O_QCLvIoZx6YnD3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-17T07:24:33.580Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="avupkGub35cC6wtO-iDG" version="16.2.7" type="github" pages="4">
+  <diagram id="YrW79O_QCLvIoZx6YnD3" name="库存调整申请单-时序图">
+    <mxGraphModel dx="1422" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1weqx7i3Zt6CdPhyrl3k" name="库存调整申请单-行为图">
+    <mxGraphModel dx="1422" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="PVDpojOrxvgwT7yR8eio-0" />
+        <mxCell id="PVDpojOrxvgwT7yR8eio-1" parent="PVDpojOrxvgwT7yR8eio-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="a7yvxRzjYRqS2Shdf80w" name="库存调整申请单-聚合根">
+    <mxGraphModel dx="1422" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="79y1Xv8FWdQJc0A-ZyRu-0" />
+        <mxCell id="79y1Xv8FWdQJc0A-ZyRu-1" parent="79y1Xv8FWdQJc0A-ZyRu-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kdZGtH4mZ9aiySJ-_8Ck" name="库存调整申请单-事件图">
+    <mxGraphModel dx="1422" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="3W6WqJMpqGZ4H0qzBmMQ-0" />
+        <mxCell id="3W6WqJMpqGZ4H0qzBmMQ-1" parent="3W6WqJMpqGZ4H0qzBmMQ-0" />
+        <mxCell id="3W6WqJMpqGZ4H0qzBmMQ-2" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=#B9E0A5;" vertex="1" parent="3W6WqJMpqGZ4H0qzBmMQ-1">
+          <mxGeometry x="500" y="260" width="350" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="3W6WqJMpqGZ4H0qzBmMQ-5" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;库存盘点&lt;/span&gt;&#xa;&#xa;" style="html=1;fillColor=#FFFFFF;" vertex="1" parent="3W6WqJMpqGZ4H0qzBmMQ-1">
+          <mxGeometry x="370" y="335" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3W6WqJMpqGZ4H0qzBmMQ-6" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;库存调整申请单&lt;/span&gt;" style="html=1;fillColor=#FFFFFF;" vertex="1" parent="3W6WqJMpqGZ4H0qzBmMQ-1">
+          <mxGeometry x="610" y="335" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3W6WqJMpqGZ4H0qzBmMQ-7" value="申请" style="endArrow=block;endSize=10;endFill=0;html=1;rounded=0;dashed=1;" edge="1" parent="3W6WqJMpqGZ4H0qzBmMQ-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="480" y="359.6600000000001" as="sourcePoint" />
+            <mxPoint x="610" y="360.15999999999985" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3W6WqJMpqGZ4H0qzBmMQ-8" value="库存调整事件流转" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3W6WqJMpqGZ4H0qzBmMQ-1">
+          <mxGeometry x="505" y="270" width="110" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
