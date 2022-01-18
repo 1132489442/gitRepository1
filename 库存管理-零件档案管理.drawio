@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-01-18T07:45:03.208Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="aIRIR_3lGf3UlYbw2wSS" version="16.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-18T07:46:04.342Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="AH2jmgMr_hjIljMi8ORl" version="16.2.7" type="github" pages="4">
   <diagram id="lNsWtbDS4W3nq3S98e4k" name="零件档案管理-时序图">
     <mxGraphModel dx="1422" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="JzbQq2mm33j0v5oRrmCY-1" value="零部件前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="200" y="160" width="100" height="700" as="geometry" />
+          <mxGeometry x="200" y="160" width="100" height="600" as="geometry" />
         </mxCell>
         <mxCell id="JzbQq2mm33j0v5oRrmCY-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" parent="JzbQq2mm33j0v5oRrmCY-1" vertex="1">
           <mxGeometry x="45" y="90" width="10" height="90" as="geometry" />
         </mxCell>
         <mxCell id="JzbQq2mm33j0v5oRrmCY-2" value="零部件模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="440" y="160" width="100" height="700" as="geometry" />
+          <mxGeometry x="440" y="160" width="100" height="600" as="geometry" />
         </mxCell>
         <mxCell id="JzbQq2mm33j0v5oRrmCY-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" parent="JzbQq2mm33j0v5oRrmCY-2" vertex="1">
           <mxGeometry x="45" y="90" width="10" height="80" as="geometry" />
@@ -27,21 +27,6 @@
               <mxPoint x="90" y="120" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="Qo3vGcpZSH_zAbWpk0c1-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JzbQq2mm33j0v5oRrmCY-2">
-          <mxGeometry x="55" y="638" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Qo3vGcpZSH_zAbWpk0c1-2" value="2.定时任务计算每月平均需求(MAD)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=0.987;exitY=0.094;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="Qo3vGcpZSH_zAbWpk0c1-1" parent="JzbQq2mm33j0v5oRrmCY-2" source="Qo3vGcpZSH_zAbWpk0c1-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="60" y="618" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="90" y="618" />
-              <mxPoint x="90" y="638" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Qo3vGcpZSH_zAbWpk0c1-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JzbQq2mm33j0v5oRrmCY-2">
-          <mxGeometry x="45" y="610" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JzbQq2mm33j0v5oRrmCY-5" value="1.1获取零件主信息()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;endSize=10;" parent="1" target="JzbQq2mm33j0v5oRrmCY-4" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -142,16 +127,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Kxamir6cGaUyaSLpq8aT-8" value="零件档案核心流程时序图" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=150;height=15;" parent="1" vertex="1">
-          <mxGeometry x="140" y="130" width="730" height="730" as="geometry" />
-        </mxCell>
-        <mxCell id="Qo3vGcpZSH_zAbWpk0c1-4" value="每月末24点后计算上一个月的值并实时上传计算结果（(N-1)月出库合计数*6+(N-2)月*5+(N-3)月*4+(N-4)月*3+(N-5)月*2+(N-6)月*1）/21&amp;nbsp; &amp;nbsp;(N=当前月份),出库合计数：内销、外销所有出库单里（字段“MAD反映”值是）的出库总数 ；" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=8;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="550" y="700" width="320" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Qo3vGcpZSH_zAbWpk0c1-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Qo3vGcpZSH_zAbWpk0c1-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="777" as="sourcePoint" />
-            <mxPoint x="566.9599999999998" y="715.7" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="140" y="130" width="510" height="630" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
