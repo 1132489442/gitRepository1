@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T06:33:56.414Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="QF0SanI0qeDqpmeM0Bsx" version="16.2.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-19T07:13:16.846Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="M5-O7yvbWObrLaGe3myO" version="16.2.7" type="github" pages="6">
   <diagram id="umNzM8Ve97_fDtR-dAsz" name="库存盘点时序图">
     <mxGraphModel dx="1673" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -129,7 +129,7 @@
             <mxPoint x="565" y="740" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JhqgC4_rt2xM12ap52p0-4" value="创建库存盘点清单时序图" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=140;height=20;" vertex="1" parent="1">
+        <mxCell id="JhqgC4_rt2xM12ap52p0-4" value="库存盘点时序图" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=100;height=20;" vertex="1" parent="1">
           <mxGeometry x="230" y="80" width="620" height="690" as="geometry" />
         </mxCell>
       </root>
@@ -733,7 +733,7 @@
         <mxCell id="gziwdHdqzvuFapXi7QN_-0" />
         <mxCell id="gziwdHdqzvuFapXi7QN_-1" parent="gziwdHdqzvuFapXi7QN_-0" />
         <mxCell id="Gc-y63EInRcP4BolEjkP-0" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=#B9E0A5;" parent="gziwdHdqzvuFapXi7QN_-1" vertex="1">
-          <mxGeometry x="240" y="240" width="850" height="290" as="geometry" />
+          <mxGeometry x="240" y="240" width="890" height="290" as="geometry" />
         </mxCell>
         <mxCell id="Gc-y63EInRcP4BolEjkP-1" value="库存盘点事件流转" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="gziwdHdqzvuFapXi7QN_-1" vertex="1">
           <mxGeometry x="255" y="250" width="110" height="20" as="geometry" />
@@ -765,7 +765,7 @@
         <mxCell id="tlDxh6TGwVFgZw9mT7_m-5" value="是否存在库存差异" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="gziwdHdqzvuFapXi7QN_-1">
           <mxGeometry x="790" y="320" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="tlDxh6TGwVFgZw9mT7_m-7" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;生成调整申请单&lt;br&gt;&lt;/span&gt;" style="html=1;fillColor=#FFFFFF;" vertex="1" parent="gziwdHdqzvuFapXi7QN_-1">
+        <mxCell id="tlDxh6TGwVFgZw9mT7_m-7" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;生成调整单(新建)&lt;br&gt;&lt;/span&gt;" style="html=1;fillColor=#FFFFFF;" vertex="1" parent="gziwdHdqzvuFapXi7QN_-1">
           <mxGeometry x="950" y="335" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tlDxh6TGwVFgZw9mT7_m-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;targetPerimeterSpacing=-1;endSize=10;" edge="1" parent="gziwdHdqzvuFapXi7QN_-1" target="tlDxh6TGwVFgZw9mT7_m-7">
@@ -791,6 +791,15 @@
         <mxCell id="tlDxh6TGwVFgZw9mT7_m-12" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tlDxh6TGwVFgZw9mT7_m-11">
           <mxGeometry x="-0.2963" y="2" relative="1" as="geometry">
             <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fAe-2XseDMQlgl_XINSL-0" value="调整单审核" style="html=1;fillColor=#FFFFFF;" vertex="1" parent="gziwdHdqzvuFapXi7QN_-1">
+          <mxGeometry x="1160" y="335" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fAe-2XseDMQlgl_XINSL-1" value="提交" style="endArrow=block;endSize=10;endFill=0;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="gziwdHdqzvuFapXi7QN_-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1060" y="360" as="sourcePoint" />
+            <mxPoint x="1160" y="361" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
