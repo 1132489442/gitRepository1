@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T06:33:38.025Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="LsU3VO3HObf83ZJKz7Z4" version="16.2.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-19T06:33:56.414Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="QF0SanI0qeDqpmeM0Bsx" version="16.2.7" type="github" pages="6">
   <diagram id="umNzM8Ve97_fDtR-dAsz" name="库存盘点时序图">
     <mxGraphModel dx="1673" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -448,12 +448,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="iC6MeO5lVUHbboqme9wx-17" value="更新库存盘点数-行为图" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=130;height=20;" vertex="1" parent="VwcgP75mEG6ZukQKdxs_-1">
-          <mxGeometry x="10" y="120" width="30" height="440" as="geometry" />
+          <mxGeometry x="10" y="120" width="850" height="440" as="geometry" />
         </mxCell>
         <mxCell id="iC6MeO5lVUHbboqme9wx-18" value="1.1调用库存管理聚合&lt;br&gt;生成库存调整申请单()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;endSize=10;exitX=1.046;exitY=0.087;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="VwcgP75mEG6ZukQKdxs_-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="265.46000000000004" y="270.28" as="sourcePoint" />
             <mxPoint x="429.5000000000002" y="270.28" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2zuxURbHngY1lZLW9T5p-0" value="&lt;span&gt;对有差异的纯牌零件行生成库存调整申请单；非纯牌零件不加入库存调整申请单&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeColor=#b85450;fillColor=#f8cecc;size=6;" vertex="1" parent="VwcgP75mEG6ZukQKdxs_-1">
+          <mxGeometry x="640" y="345" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2zuxURbHngY1lZLW9T5p-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;endSize=6;targetPerimeterSpacing=-1;strokeColor=#1A1A1A;entryX=0;entryY=0.742;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="VwcgP75mEG6ZukQKdxs_-1" target="2zuxURbHngY1lZLW9T5p-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
