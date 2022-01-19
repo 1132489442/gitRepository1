@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T06:29:40.943Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Og0KCtShQCXMIx7LyYEv" version="16.2.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-19T06:30:05.521Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="V84Of_zL6kCpVQqRVQuF" version="16.2.7" type="github" pages="6">
   <diagram id="umNzM8Ve97_fDtR-dAsz" name="库存盘点时序图">
     <mxGraphModel dx="1673" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -217,7 +217,7 @@
             <mxPoint x="605" y="659.9999999999998" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Hreq53y_PI7lOK3DhGQt-12" value="生成库存盘点-行为图" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=120;height=20;" parent="cGxvXAa2omujSZtcGAt--1" vertex="1">
+        <mxCell id="Hreq53y_PI7lOK3DhGQt-12" value="创建盘点清单-行为图" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=120;height=20;" parent="cGxvXAa2omujSZtcGAt--1" vertex="1">
           <mxGeometry x="190" y="120" width="1000" height="600" as="geometry" />
         </mxCell>
         <mxCell id="SQIhCoSEok_W2m7uQ8Id-3" value="基于零件档案的信息生成" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeColor=#b85450;fillColor=#f8cecc;size=7;" vertex="1" parent="cGxvXAa2omujSZtcGAt--1">
