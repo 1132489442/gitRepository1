@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T03:12:49.166Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="di9AI1Hkz0yzGwey44rs" version="16.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-19T03:14:07.658Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="VAvL1RiSmZLSfstwTDLb" version="16.2.7" type="github" pages="4">
   <diagram id="lNsWtbDS4W3nq3S98e4k" name="零件档案管理-时序图">
     <mxGraphModel dx="1422" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -482,6 +482,15 @@
         </mxCell>
         <mxCell id="52_WWyNTksbaWF4LrMRT-3" value="已保存" style="html=1;fillColor=#FFFFFF;" parent="M2TjNYsMdghcYKyZ1zlm-1" vertex="1">
           <mxGeometry x="370" y="335" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UwIfKv_WnpCKnUMVtJai-0" value="库存盘带清单" style="html=1;fillColor=#FFFFFF;" vertex="1" parent="M2TjNYsMdghcYKyZ1zlm-1">
+          <mxGeometry x="570" y="335" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UwIfKv_WnpCKnUMVtJai-1" value="生成" style="endArrow=block;endSize=10;endFill=0;html=1;rounded=0;dashed=1;" edge="1" parent="M2TjNYsMdghcYKyZ1zlm-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="480" y="359.5" as="sourcePoint" />
+            <mxPoint x="570" y="360" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
