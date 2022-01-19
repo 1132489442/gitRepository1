@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T03:12:14.468Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="8tixmQge_VMvNmSQLEFO" version="16.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-19T03:12:49.166Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="di9AI1Hkz0yzGwey44rs" version="16.2.7" type="github" pages="4">
   <diagram id="lNsWtbDS4W3nq3S98e4k" name="零件档案管理-时序图">
     <mxGraphModel dx="1422" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -751,7 +751,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cT3Vld7IKHRvfgQzqOiM-0" value="库存盘点清单" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#00BB00;" vertex="1" parent="gSFO_k2pgU8JHoRsKiNj-1">
-          <mxGeometry x="630" y="580" width="180" height="90" as="geometry" />
+          <mxGeometry x="620" y="450" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="cT3Vld7IKHRvfgQzqOiM-1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#00BB00;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="cT3Vld7IKHRvfgQzqOiM-0">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -777,6 +777,16 @@
         <mxCell id="cT3Vld7IKHRvfgQzqOiM-6" value="零件编号" style="shape=partialRectangle;connectable=0;fillColor=#00BB00;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="cT3Vld7IKHRvfgQzqOiM-4">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cT3Vld7IKHRvfgQzqOiM-7" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.011;exitY=0.775;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="gSFO_k2pgU8JHoRsKiNj-1" source="cT3Vld7IKHRvfgQzqOiM-4">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="600" y="650" as="sourcePoint" />
+            <mxPoint x="540" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="533" />
+              <mxPoint x="580" y="390" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
