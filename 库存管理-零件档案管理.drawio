@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-18T07:51:04.090Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="E-0F8CNMyDFSBFQRpsOh" version="16.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-19T03:09:11.650Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Bpl8wLWyUBrOcORZ8XBU" version="16.2.7" type="github" pages="4">
   <diagram id="lNsWtbDS4W3nq3S98e4k" name="零件档案管理-时序图">
     <mxGraphModel dx="1422" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -491,8 +491,8 @@
       <root>
         <mxCell id="gSFO_k2pgU8JHoRsKiNj-0" />
         <mxCell id="gSFO_k2pgU8JHoRsKiNj-1" parent="gSFO_k2pgU8JHoRsKiNj-0" />
-        <mxCell id="gSFO_k2pgU8JHoRsKiNj-2" value="【零部件】货位信息" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#00BB00;" parent="gSFO_k2pgU8JHoRsKiNj-1" vertex="1">
-          <mxGeometry x="660" y="530" width="180" height="120" as="geometry" />
+        <mxCell id="gSFO_k2pgU8JHoRsKiNj-2" value="【基础设置】货位信息" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#00BB00;" parent="gSFO_k2pgU8JHoRsKiNj-1" vertex="1">
+          <mxGeometry x="70" y="620" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="gSFO_k2pgU8JHoRsKiNj-3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#00BB00;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="gSFO_k2pgU8JHoRsKiNj-2" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -533,7 +533,7 @@
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gSFO_k2pgU8JHoRsKiNj-15" value="【零部件】零件信息" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#00BB00;" parent="gSFO_k2pgU8JHoRsKiNj-1" vertex="1">
+        <mxCell id="gSFO_k2pgU8JHoRsKiNj-15" value="【零部件】零件主信息" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#00BB00;" parent="gSFO_k2pgU8JHoRsKiNj-1" vertex="1">
           <mxGeometry x="70" y="390" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="gSFO_k2pgU8JHoRsKiNj-16" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#00BB00;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="gSFO_k2pgU8JHoRsKiNj-15" vertex="1">
@@ -695,7 +695,7 @@
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gSFO_k2pgU8JHoRsKiNj-88" value="【零部件】零件分类" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#00BB00;" parent="gSFO_k2pgU8JHoRsKiNj-1" vertex="1">
+        <mxCell id="gSFO_k2pgU8JHoRsKiNj-88" value="【基础设置】零件分类" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#00BB00;" parent="gSFO_k2pgU8JHoRsKiNj-1" vertex="1">
           <mxGeometry x="70" y="510" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="gSFO_k2pgU8JHoRsKiNj-89" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#00BB00;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="gSFO_k2pgU8JHoRsKiNj-88" vertex="1">
@@ -744,7 +744,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bTvhPcf_JpXqdTsCsaBq-0" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" parent="gSFO_k2pgU8JHoRsKiNj-1" edge="1">
+        <mxCell id="bTvhPcf_JpXqdTsCsaBq-0" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="gSFO_k2pgU8JHoRsKiNj-1" edge="1" target="gSFO_k2pgU8JHoRsKiNj-3" source="gSFO_k2pgU8JHoRsKiNj-60">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="540" y="580" as="sourcePoint" />
             <mxPoint x="660" y="580" as="targetPoint" />
