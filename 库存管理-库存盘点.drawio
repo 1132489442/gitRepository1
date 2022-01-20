@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-20T08:43:02.184Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="64IgerQsLTFBX4fCaSvh" version="16.2.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-20T08:43:19.335Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="g0MnBR1Fq0l9U_qjIEAH" version="16.2.7" type="github" pages="6">
   <diagram id="umNzM8Ve97_fDtR-dAsz" name="生成盘点清单时序图">
     <mxGraphModel dx="1497" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -105,7 +105,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="CWC9icr2To08yCRbfgHr-3" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#1A1A1A;fillColor=#FFFFFF;width=30;height=20;dashed=1;" vertex="1" parent="1">
+        <mxCell id="CWC9icr2To08yCRbfgHr-3" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#1A1A1A;fillColor=#FFFFFF;width=30;height=20;" vertex="1" parent="1">
           <mxGeometry x="460" y="250" width="300" height="210" as="geometry" />
         </mxCell>
         <mxCell id="CWC9icr2To08yCRbfgHr-4" value="【每日盘点】" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -207,7 +207,7 @@
             <mxPoint x="590" y="950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cc6cGaNJKrQj-9C-JRmY-21" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#1A1A1A;fillColor=#FFFFFF;width=30;height=20;dashed=1;" vertex="1" parent="1">
+        <mxCell id="Cc6cGaNJKrQj-9C-JRmY-21" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#1A1A1A;fillColor=#FFFFFF;width=30;height=20;" vertex="1" parent="1">
           <mxGeometry x="210" y="800" width="600" height="470" as="geometry" />
         </mxCell>
         <mxCell id="Cc6cGaNJKrQj-9C-JRmY-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
