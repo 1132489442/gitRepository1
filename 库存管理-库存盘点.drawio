@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-20T04:25:48.519Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="F-AA9994xzyInPICu9hF" version="16.2.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-01-20T04:31:30.924Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="sz8VSyI5oo5yCVo_A4V9" version="16.2.7" type="github" pages="8">
   <diagram id="umNzM8Ve97_fDtR-dAsz" name="生成盘点清单时序图">
-    <mxGraphModel dx="2188" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="862" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -91,7 +91,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JhqgC4_rt2xM12ap52p0-4" value="库存盘点时序图" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=100;height=20;" vertex="1" parent="1">
-          <mxGeometry x="170" y="80" width="820" height="1210" as="geometry" />
+          <mxGeometry x="170" y="80" width="820" height="1200" as="geometry" />
         </mxCell>
         <mxCell id="CWC9icr2To08yCRbfgHr-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#1A1A1A;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="575" y="400" width="10" height="40" as="geometry" />
@@ -225,7 +225,7 @@
         <mxCell id="Cc6cGaNJKrQj-9C-JRmY-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="575" y="1190" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Cc6cGaNJKrQj-9C-JRmY-26" value="5.1提交申请单为待审核()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=1.022;exitY=0.128;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="Cc6cGaNJKrQj-9C-JRmY-25">
+        <mxCell id="Cc6cGaNJKrQj-9C-JRmY-26" value="5.1下发事件总线MQ，&lt;br&gt;提交申请单为待审核()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=1.022;exitY=0.128;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="Cc6cGaNJKrQj-9C-JRmY-25">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="575.2199999999998" y="1170.2400000000002" as="sourcePoint" />
             <Array as="points">
