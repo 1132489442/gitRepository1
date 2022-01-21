@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-21T04:34:02.847Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="0TEGaYdlDbaI09nDv0co" version="16.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-21T04:34:50.780Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="ggdCXFB10SMvIc-j5U8k" version="16.2.7" type="github" pages="4">
   <diagram id="KpkEGQ409U3p1T-nQ_Iy" name="审核库存调整申请单">
     <mxGraphModel dx="1185" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
           <mxGeometry x="45" y="110" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="01sT2_j_ewfTkymeiKA3-5" value="审核库存调整申请单时序图" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=150;height=20;" vertex="1" parent="dMH_0dEpBMfl3PH4L_uG-1">
-          <mxGeometry x="100" y="80" width="600" height="950" as="geometry" />
+          <mxGeometry x="100" y="80" width="630" height="950" as="geometry" />
         </mxCell>
         <mxCell id="01sT2_j_ewfTkymeiKA3-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" vertex="1" parent="dMH_0dEpBMfl3PH4L_uG-1">
           <mxGeometry x="445" y="260" width="10" height="40" as="geometry" />
