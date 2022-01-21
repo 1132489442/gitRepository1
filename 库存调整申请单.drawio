@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-21T04:47:58.994Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="i93NklSRCU5IBSHk-59B" version="16.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-21T05:31:30.540Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="frQ9zRiypEHLpFx1zGKk" version="16.2.7" type="github" pages="4">
   <diagram id="KpkEGQ409U3p1T-nQ_Iy" name="审核库存调整申请单">
-    <mxGraphModel dx="1185" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1292" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="dMH_0dEpBMfl3PH4L_uG-0" />
         <mxCell id="dMH_0dEpBMfl3PH4L_uG-1" parent="dMH_0dEpBMfl3PH4L_uG-0" />
@@ -23,12 +23,12 @@
           <mxGeometry x="45" y="110" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="01sT2_j_ewfTkymeiKA3-5" value="审核库存调整申请单时序图" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=150;height=20;" vertex="1" parent="dMH_0dEpBMfl3PH4L_uG-1">
-          <mxGeometry x="100" y="80" width="630" height="950" as="geometry" />
+          <mxGeometry x="100" y="80" width="620" height="950" as="geometry" />
         </mxCell>
         <mxCell id="01sT2_j_ewfTkymeiKA3-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" vertex="1" parent="dMH_0dEpBMfl3PH4L_uG-1">
           <mxGeometry x="445" y="260" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="01sT2_j_ewfTkymeiKA3-9" value="1.接收库存盘点和在线申请事件总线MQ消息，&lt;br&gt;保存库存调整申请单为待审核()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=1.022;exitY=0.128;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="dMH_0dEpBMfl3PH4L_uG-1" target="01sT2_j_ewfTkymeiKA3-8">
+        <mxCell id="01sT2_j_ewfTkymeiKA3-9" value="1.接收库存盘点事件总线MQ消息，&lt;br&gt;保存库存调整申请单为待审核()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=1.022;exitY=0.128;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="dMH_0dEpBMfl3PH4L_uG-1" target="01sT2_j_ewfTkymeiKA3-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="445.2199999999998" y="240.24" as="sourcePoint" />
             <Array as="points">
@@ -189,7 +189,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1weqx7i3Zt6CdPhyrl3k" name="库存调整申请单-行为图">
-    <mxGraphModel dx="1422" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="PVDpojOrxvgwT7yR8eio-0" />
         <mxCell id="PVDpojOrxvgwT7yR8eio-1" parent="PVDpojOrxvgwT7yR8eio-0" />
@@ -364,7 +364,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kdZGtH4mZ9aiySJ-_8Ck" name="库存调整申请单-事件图">
-    <mxGraphModel dx="1422" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="3W6WqJMpqGZ4H0qzBmMQ-0" />
         <mxCell id="3W6WqJMpqGZ4H0qzBmMQ-1" parent="3W6WqJMpqGZ4H0qzBmMQ-0" />
@@ -442,7 +442,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l23pIWLlU_TnLgglJzo0-0" value="&lt;font face=&quot;helvetica&quot;&gt;新建&lt;/font&gt;" style="html=1;fillColor=#FFFFFF;" vertex="1" parent="3W6WqJMpqGZ4H0qzBmMQ-1">
+        <mxCell id="l23pIWLlU_TnLgglJzo0-0" value="&lt;font face=&quot;helvetica&quot;&gt;待提交&lt;/font&gt;" style="html=1;fillColor=#FFFFFF;" vertex="1" parent="3W6WqJMpqGZ4H0qzBmMQ-1">
           <mxGeometry x="610" y="335" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="l23pIWLlU_TnLgglJzo0-1" value="创建" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;endSize=8;exitX=-0.001;exitY=0.373;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3W6WqJMpqGZ4H0qzBmMQ-1" source="3W6WqJMpqGZ4H0qzBmMQ-2" target="l23pIWLlU_TnLgglJzo0-0">
@@ -466,6 +466,29 @@
         </mxCell>
         <mxCell id="l23pIWLlU_TnLgglJzo0-5" value="事件总线MQ，接收库存盘点数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l23pIWLlU_TnLgglJzo0-3">
           <mxGeometry x="0.0075" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWajD_lyLX1lxBpiL2ky-0" value="部分不通过的" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;endSize=8;" edge="1" parent="3W6WqJMpqGZ4H0qzBmMQ-1" source="4SFHawzw00CQyHeP9pkp-8" target="l23pIWLlU_TnLgglJzo0-0">
+          <mxGeometry x="-0.1636" y="9" width="80" relative="1" as="geometry">
+            <mxPoint x="675" y="395" as="sourcePoint" />
+            <mxPoint x="1005" y="605" as="targetPoint" />
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWajD_lyLX1lxBpiL2ky-1" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;库存&lt;/span&gt;" style="html=1;fillColor=#FFFFFF;" vertex="1" parent="3W6WqJMpqGZ4H0qzBmMQ-1">
+          <mxGeometry x="1390" y="330" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UWajD_lyLX1lxBpiL2ky-2" value="更新" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;endFill=0;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="3W6WqJMpqGZ4H0qzBmMQ-1" source="4SFHawzw00CQyHeP9pkp-7" target="UWajD_lyLX1lxBpiL2ky-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1280" y="359.50000000000006" as="sourcePoint" />
+            <mxPoint x="1360" y="359.79" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWajD_lyLX1lxBpiL2ky-3" value="更新" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;endFill=0;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="3W6WqJMpqGZ4H0qzBmMQ-1">
+          <mxGeometry x="-0.021" y="-5" width="80" relative="1" as="geometry">
+            <mxPoint x="1105" y="223.9999999999999" as="sourcePoint" />
+            <mxPoint x="1445" y="328.9999999999999" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
