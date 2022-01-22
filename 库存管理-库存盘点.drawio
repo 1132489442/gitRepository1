@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-22T02:36:13.014Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="WsXKNnDCDAGJEw2nlPkD" version="16.2.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-22T02:36:39.433Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="212_lCnXHLc48Tq4-b2g" version="16.2.7" type="github" pages="6">
   <diagram id="umNzM8Ve97_fDtR-dAsz" name="生成盘点清单时序图">
     <mxGraphModel dx="1938" dy="1036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -548,7 +548,7 @@
         <mxCell id="qpBS98LPw2g14_qkp78n-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" vertex="1" parent="qpBS98LPw2g14_qkp78n-5">
           <mxGeometry x="55" y="252" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qpBS98LPw2g14_qkp78n-8" value="1.1.2.1更新库存数()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;endSize=10;exitX=0.987;exitY=0.125;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="qpBS98LPw2g14_qkp78n-5" source="qpBS98LPw2g14_qkp78n-6" target="qpBS98LPw2g14_qkp78n-7">
+        <mxCell id="qpBS98LPw2g14_qkp78n-8" value="1.1.2.1更新零件档案库存数()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;endSize=10;exitX=0.987;exitY=0.125;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="qpBS98LPw2g14_qkp78n-5" source="qpBS98LPw2g14_qkp78n-6" target="qpBS98LPw2g14_qkp78n-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="232" as="sourcePoint" />
             <Array as="points">
@@ -599,7 +599,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qpBS98LPw2g14_qkp78n-17" value="更新库存数-行为图" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=130;height=20;" vertex="1" parent="VwcgP75mEG6ZukQKdxs_-1">
-          <mxGeometry x="30" y="120" width="30" height="440" as="geometry" />
+          <mxGeometry x="30" y="120" width="800" height="440" as="geometry" />
         </mxCell>
         <mxCell id="qpBS98LPw2g14_qkp78n-18" value="1.1调用库存管理聚合&lt;br&gt;修改库存盘点库存数()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;endSize=10;exitX=1.046;exitY=0.087;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="VwcgP75mEG6ZukQKdxs_-1">
           <mxGeometry relative="1" as="geometry">
