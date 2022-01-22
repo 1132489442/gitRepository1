@@ -1,1 +1,131 @@
-<mxfile host="app.diagrams.net" modified="2022-01-22T08:11:51.900Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" version="16.2.7" etag="Bgicye9vX_34FY6tQ7Wc" type="github"><diagram id="K6y50GVgtAXHJ3oQSCxf">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-22T10:04:20.555Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="yTwRAAwSIBPk288XJEXo" version="16.2.7" type="github" pages="4">
+  <diagram id="K6y50GVgtAXHJ3oQSCxf" name="时序图">
+    <mxGraphModel dx="1550" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XKDUoo8fodvt92stpq9q" name="行为设计">
+    <mxGraphModel dx="1550" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="_K_Jtm2Ol_Yjrct9v4DW-0" />
+        <mxCell id="_K_Jtm2Ol_Yjrct9v4DW-1" parent="_K_Jtm2Ol_Yjrct9v4DW-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="VZe5W3S-P6BDO0_0jj-s" name="事件设计">
+    <mxGraphModel dx="1550" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WkEhYLCNLF1F9oNTBdvM-0" />
+        <mxCell id="WkEhYLCNLF1F9oNTBdvM-1" parent="WkEhYLCNLF1F9oNTBdvM-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="um0tMVD2im-SjFLLG5LV" name="聚合根">
+    <mxGraphModel dx="1550" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0M60EH2XHKjjdK8FPoCG-0" />
+        <mxCell id="0M60EH2XHKjjdK8FPoCG-1" parent="0M60EH2XHKjjdK8FPoCG-0" />
+        <mxCell id="0M60EH2XHKjjdK8FPoCG-2" value=" 【零部件】库存调整金额单" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#7DCDFC;" vertex="1" parent="0M60EH2XHKjjdK8FPoCG-1">
+          <mxGeometry x="324" y="170" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="0M60EH2XHKjjdK8FPoCG-3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#7DCDFC;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="0M60EH2XHKjjdK8FPoCG-2">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0M60EH2XHKjjdK8FPoCG-4" value="PK" style="shape=partialRectangle;connectable=0;fillColor=#7DCDFC;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;" vertex="1" parent="0M60EH2XHKjjdK8FPoCG-3">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0M60EH2XHKjjdK8FPoCG-5" value="id" style="shape=partialRectangle;connectable=0;fillColor=#7DCDFC;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;" vertex="1" parent="0M60EH2XHKjjdK8FPoCG-3">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0M60EH2XHKjjdK8FPoCG-6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#7DCDFC;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="0M60EH2XHKjjdK8FPoCG-2">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0M60EH2XHKjjdK8FPoCG-7" value="" style="shape=partialRectangle;connectable=0;fillColor=#7DCDFC;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="0M60EH2XHKjjdK8FPoCG-6">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0M60EH2XHKjjdK8FPoCG-8" value="零件编号" style="shape=partialRectangle;connectable=0;fillColor=#7DCDFC;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="0M60EH2XHKjjdK8FPoCG-6">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0M60EH2XHKjjdK8FPoCG-9" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#7DCDFC;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="0M60EH2XHKjjdK8FPoCG-2">
+          <mxGeometry y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0M60EH2XHKjjdK8FPoCG-10" value="" style="shape=partialRectangle;connectable=0;fillColor=#7DCDFC;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="0M60EH2XHKjjdK8FPoCG-9">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0M60EH2XHKjjdK8FPoCG-11" value="零件名称    " style="shape=partialRectangle;connectable=0;fillColor=#7DCDFC;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="0M60EH2XHKjjdK8FPoCG-9">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0M60EH2XHKjjdK8FPoCG-12" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#7DCDFC;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="0M60EH2XHKjjdK8FPoCG-2">
+          <mxGeometry y="120" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0M60EH2XHKjjdK8FPoCG-13" style="shape=partialRectangle;connectable=0;fillColor=#7DCDFC;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="0M60EH2XHKjjdK8FPoCG-12">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0M60EH2XHKjjdK8FPoCG-14" value="成本单价" style="shape=partialRectangle;connectable=0;fillColor=#7DCDFC;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="0M60EH2XHKjjdK8FPoCG-12">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0M60EH2XHKjjdK8FPoCG-15" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#7DCDFC;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="0M60EH2XHKjjdK8FPoCG-2">
+          <mxGeometry y="150" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0M60EH2XHKjjdK8FPoCG-16" style="shape=partialRectangle;connectable=0;fillColor=#7DCDFC;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="0M60EH2XHKjjdK8FPoCG-15">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0M60EH2XHKjjdK8FPoCG-17" value="库存总金额" style="shape=partialRectangle;connectable=0;fillColor=#7DCDFC;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="0M60EH2XHKjjdK8FPoCG-15">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0M60EH2XHKjjdK8FPoCG-33" value=" 【零部件】零件档案" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#7DCDFC;" vertex="1" parent="0M60EH2XHKjjdK8FPoCG-1">
+          <mxGeometry x="570" y="270" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0M60EH2XHKjjdK8FPoCG-34" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#7DCDFC;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="0M60EH2XHKjjdK8FPoCG-33">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0M60EH2XHKjjdK8FPoCG-35" value="PK" style="shape=partialRectangle;connectable=0;fillColor=#7DCDFC;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;" vertex="1" parent="0M60EH2XHKjjdK8FPoCG-34">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0M60EH2XHKjjdK8FPoCG-36" value="id" style="shape=partialRectangle;connectable=0;fillColor=#7DCDFC;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;" vertex="1" parent="0M60EH2XHKjjdK8FPoCG-34">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0M60EH2XHKjjdK8FPoCG-46" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#7DCDFC;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="0M60EH2XHKjjdK8FPoCG-33">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0M60EH2XHKjjdK8FPoCG-47" style="shape=partialRectangle;connectable=0;fillColor=#7DCDFC;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="0M60EH2XHKjjdK8FPoCG-46">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0M60EH2XHKjjdK8FPoCG-48" value="库存金额" style="shape=partialRectangle;connectable=0;fillColor=#7DCDFC;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="0M60EH2XHKjjdK8FPoCG-46">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
