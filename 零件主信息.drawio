@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T08:34:52.030Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="iEcRgq8UGxqn304M7tiz" version="16.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-23T08:49:18.451Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="GHYfTeN9sfGN5msGp412" version="16.2.7" type="github" pages="4">
   <diagram id="6bnHpI4cZpsdlI7_PELI" name="时序图">
-    <mxGraphModel dx="2377" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2377" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -129,27 +129,70 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FOFnYMLGnaj3QQaz7xhX" name="定时任务创建-行为图">
-    <mxGraphModel dx="2377" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2377" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="7OLGIQ1EorespxrLgJ10-0" />
         <mxCell id="7OLGIQ1EorespxrLgJ10-1" parent="7OLGIQ1EorespxrLgJ10-0" />
         <mxCell id="IHvkTjEI3uxPASRba5FX-0" value="领域层-零件基础原子服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;" vertex="1" parent="7OLGIQ1EorespxrLgJ10-1">
-          <mxGeometry x="660" y="160" width="100" height="300" as="geometry" />
+          <mxGeometry x="660" y="160" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="THMdplnS1te3H137m6_t-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;" vertex="1" parent="IHvkTjEI3uxPASRba5FX-0">
+          <mxGeometry x="45" y="345" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="THMdplnS1te3H137m6_t-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;" vertex="1" parent="IHvkTjEI3uxPASRba5FX-0">
+          <mxGeometry x="55" y="375" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="THMdplnS1te3H137m6_t-17" value="2.2.1保存零件信息()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=1.018;exitY=0.143;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="THMdplnS1te3H137m6_t-16" parent="IHvkTjEI3uxPASRba5FX-0" source="THMdplnS1te3H137m6_t-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="355" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="55" y="355" />
+              <mxPoint x="90" y="355" />
+              <mxPoint x="90" y="375" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="IHvkTjEI3uxPASRba5FX-1" value="应用层-零部件聚合服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;" vertex="1" parent="7OLGIQ1EorespxrLgJ10-1">
-          <mxGeometry x="500" y="160" width="100" height="300" as="geometry" />
+          <mxGeometry x="500" y="160" width="100" height="480" as="geometry" />
         </mxCell>
         <mxCell id="IHvkTjEI3uxPASRba5FX-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;" vertex="1" parent="IHvkTjEI3uxPASRba5FX-1">
-          <mxGeometry x="45" y="100" width="10" height="80" as="geometry" />
+          <mxGeometry x="45" y="100" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="THMdplnS1te3H137m6_t-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;" vertex="1" parent="IHvkTjEI3uxPASRba5FX-1">
+          <mxGeometry x="45" y="250" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="THMdplnS1te3H137m6_t-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;" vertex="1" parent="IHvkTjEI3uxPASRba5FX-1">
+          <mxGeometry x="55" y="130" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="THMdplnS1te3H137m6_t-10" value="1.1保存文件" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=1.014;exitY=0.108;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="THMdplnS1te3H137m6_t-9" parent="IHvkTjEI3uxPASRba5FX-1" source="IHvkTjEI3uxPASRba5FX-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="110" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="110" />
+              <mxPoint x="90" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THMdplnS1te3H137m6_t-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;" vertex="1" parent="IHvkTjEI3uxPASRba5FX-1">
+          <mxGeometry x="55" y="280" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="THMdplnS1te3H137m6_t-12" value="2.1文件读取，校验数据()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=1.033;exitY=0.088;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="THMdplnS1te3H137m6_t-11" parent="IHvkTjEI3uxPASRba5FX-1" source="THMdplnS1te3H137m6_t-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="260" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="260" />
+              <mxPoint x="90" y="280" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="IHvkTjEI3uxPASRba5FX-2" value="接口-BFF服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;" vertex="1" parent="7OLGIQ1EorespxrLgJ10-1">
-          <mxGeometry x="330" y="160" width="100" height="300" as="geometry" />
+          <mxGeometry x="330" y="160" width="100" height="480" as="geometry" />
         </mxCell>
         <mxCell id="IHvkTjEI3uxPASRba5FX-3" value="零部件前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;" vertex="1" parent="7OLGIQ1EorespxrLgJ10-1">
-          <mxGeometry x="150" y="160" width="100" height="300" as="geometry" />
+          <mxGeometry x="150" y="160" width="100" height="480" as="geometry" />
         </mxCell>
         <mxCell id="IHvkTjEI3uxPASRba5FX-4" value="CPM" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;" vertex="1" parent="7OLGIQ1EorespxrLgJ10-1">
-          <mxGeometry x="-20" y="160" width="100" height="300" as="geometry" />
+          <mxGeometry x="-20" y="160" width="100" height="480" as="geometry" />
         </mxCell>
         <mxCell id="IHvkTjEI3uxPASRba5FX-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;" vertex="1" parent="IHvkTjEI3uxPASRba5FX-4">
           <mxGeometry x="45" y="100" width="10" height="80" as="geometry" />
@@ -158,6 +201,23 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="30" y="260" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="THMdplnS1te3H137m6_t-14" value="2.2保存零件主信息()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="THMdplnS1te3H137m6_t-13" parent="7OLGIQ1EorespxrLgJ10-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="556" y="505" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THMdplnS1te3H137m6_t-15" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="7OLGIQ1EorespxrLgJ10-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="556" y="584" as="targetPoint" />
+            <mxPoint x="705" y="584" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THMdplnS1te3H137m6_t-18" value="loop:每日一次" style="shape=umlFrame;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;width=90;height=20;" vertex="1" parent="7OLGIQ1EorespxrLgJ10-1">
+          <mxGeometry x="-40" y="220" width="700" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="THMdplnS1te3H137m6_t-19" value="loop:每日一次" style="shape=umlFrame;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;width=90;height=20;" vertex="1" parent="7OLGIQ1EorespxrLgJ10-1">
+          <mxGeometry x="440" y="400" width="430" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -183,7 +243,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fTKao5kH5AFAM4wwmsIB" name="聚合根">
-    <mxGraphModel dx="1550" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="7-ZAPzwOO9HuGMdEz8zF-0" />
         <mxCell id="7-ZAPzwOO9HuGMdEz8zF-1" parent="7-ZAPzwOO9HuGMdEz8zF-0" />
