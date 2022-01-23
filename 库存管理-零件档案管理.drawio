@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T10:53:02.692Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="VFqITpJ3AY7Aww6qmCLR" version="16.2.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-01-23T10:53:18.295Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="7poXQZkFwf4yu-iTA65k" version="16.2.7" type="github" pages="5">
   <diagram id="lNsWtbDS4W3nq3S98e4k" name="时序图">
     <mxGraphModel dx="2377" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -176,14 +176,8 @@
         <mxCell id="D6uN7NrmjaDuC-DAHbQB-1" value="共通" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="780" y="160" width="100" height="840" as="geometry" />
         </mxCell>
-        <mxCell id="D6uN7NrmjaDuC-DAHbQB-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" vertex="1" parent="D6uN7NrmjaDuC-DAHbQB-1">
-          <mxGeometry x="45" y="90" width="10" height="110" as="geometry" />
-        </mxCell>
         <mxCell id="D6uN7NrmjaDuC-DAHbQB-3" value="DMP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="627.5" y="160" width="100" height="840" as="geometry" />
-        </mxCell>
-        <mxCell id="D6uN7NrmjaDuC-DAHbQB-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" vertex="1" parent="D6uN7NrmjaDuC-DAHbQB-3">
-          <mxGeometry x="45" y="90" width="10" height="110" as="geometry" />
         </mxCell>
         <mxCell id="D6uN7NrmjaDuC-DAHbQB-5" value="销售店仓库管理员" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-120" y="160" width="100" height="840" as="geometry" />
