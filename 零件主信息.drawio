@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T12:48:41.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="5INeeCkEFqO3O6djoIEZ" version="16.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-23T12:48:54.762Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="LGWFDTJgExFyqFX-1E4y" version="16.2.7" type="github" pages="4">
   <diagram id="6bnHpI4cZpsdlI7_PELI" name="时序图">
     <mxGraphModel dx="2377" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -99,7 +99,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NSKzPpxyFT8icQPAhpy8-5" value="1.I/F NO.1 CPM接口_推送零件主档信息 ()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;dashed=1;" edge="1" parent="1" target="NSKzPpxyFT8icQPAhpy8-1" source="NSKzPpxyFT8icQPAhpy8-7">
+        <mxCell id="NSKzPpxyFT8icQPAhpy8-5" value="1.I/F NO.1 CPM接口_推送零件主档信息 ()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" target="NSKzPpxyFT8icQPAhpy8-1" source="NSKzPpxyFT8icQPAhpy8-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="140" y="270" as="sourcePoint" />
           </mxGeometry>
@@ -119,7 +119,7 @@
         <mxCell id="0LydJXx7M0l3ICLnaT1j-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=#FFFFFF;fontColor=#393939;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="646" width="570" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="-hw4QSPwFotWUhY3wTBO-1" value="Loop:每日一次" style="shape=umlFrame;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;width=90;height=20;" vertex="1" parent="1">
+        <mxCell id="-hw4QSPwFotWUhY3wTBO-2" value="Loop:每日一次" style="shape=umlFrame;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;width=90;height=20;" vertex="1" parent="1">
           <mxGeometry x="-90" y="240" width="650" height="120" as="geometry" />
         </mxCell>
       </root>
