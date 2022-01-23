@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T12:34:52.470Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="kJ8V2xGOqw8TlD9bd0r2" version="16.2.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-01-23T12:48:30.176Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="jjeTrGpjVJjIRNnTaF1n" version="16.2.7" type="github" pages="5">
   <diagram id="lNsWtbDS4W3nq3S98e4k" name="时序图">
     <mxGraphModel dx="3204" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,7 +78,7 @@
         <mxCell id="3HUosEOKUJIBVcVZZFC8-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" vertex="1" parent="3HUosEOKUJIBVcVZZFC8-2">
           <mxGeometry x="45" y="450" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3HUosEOKUJIBVcVZZFC8-5" value="4.接收事件总线MQ，采购入库更新库存()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="3HUosEOKUJIBVcVZZFC8-4" parent="1">
+        <mxCell id="3HUosEOKUJIBVcVZZFC8-5" value="4.接收事件总线MQ，采购入库更新库存()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;dashed=1;" edge="1" target="3HUosEOKUJIBVcVZZFC8-4" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="80" y="610" as="sourcePoint" />
           </mxGeometry>
@@ -101,7 +101,7 @@
         <mxCell id="3HUosEOKUJIBVcVZZFC8-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="75" y="720" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3HUosEOKUJIBVcVZZFC8-13" value="5.接收事件总线MQ，销售出库更新库存()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" target="3HUosEOKUJIBVcVZZFC8-9">
+        <mxCell id="3HUosEOKUJIBVcVZZFC8-13" value="5.接收事件总线MQ，销售出库更新库存()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;dashed=1;" edge="1" parent="1" target="3HUosEOKUJIBVcVZZFC8-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="80" y="720" as="sourcePoint" />
           </mxGeometry>
