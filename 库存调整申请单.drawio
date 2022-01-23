@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T11:46:53.108Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="mCTBRFjWtQl4MKcqSOkj" version="16.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-23T12:43:31.562Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="KPFarxnhW29W70Pt2u3N" version="16.2.7" type="github" pages="4">
   <diagram id="KpkEGQ409U3p1T-nQ_Iy" name="时序图">
-    <mxGraphModel dx="3041" dy="1184" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="dMH_0dEpBMfl3PH4L_uG-0" />
         <mxCell id="dMH_0dEpBMfl3PH4L_uG-1" parent="dMH_0dEpBMfl3PH4L_uG-0" />
-        <mxCell id="01sT2_j_ewfTkymeiKA3-0" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;审批业务担当&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="dMH_0dEpBMfl3PH4L_uG-1" vertex="1">
+        <mxCell id="01sT2_j_ewfTkymeiKA3-0" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;零部件前端&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="dMH_0dEpBMfl3PH4L_uG-1" vertex="1">
           <mxGeometry x="110" y="120" width="100" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="01sT2_j_ewfTkymeiKA3-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="01sT2_j_ewfTkymeiKA3-0" vertex="1">
+          <mxGeometry x="45" y="360" width="10" height="370" as="geometry" />
         </mxCell>
         <mxCell id="01sT2_j_ewfTkymeiKA3-2" value="零部件模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="dMH_0dEpBMfl3PH4L_uG-1" vertex="1">
           <mxGeometry x="390" y="120" width="100" height="870" as="geometry" />
@@ -34,13 +37,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="01sT2_j_ewfTkymeiKA3-5" value="审核库存调整申请单时序图" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=150;height=20;" parent="dMH_0dEpBMfl3PH4L_uG-1" vertex="1">
-          <mxGeometry x="-60" y="90" width="810" height="890" as="geometry" />
-        </mxCell>
         <mxCell id="01sT2_j_ewfTkymeiKA3-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="dMH_0dEpBMfl3PH4L_uG-1" vertex="1">
           <mxGeometry x="435" y="480" width="10" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="01sT2_j_ewfTkymeiKA3-12" value="3.审核库存调整申请单()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;endSize=8;" parent="dMH_0dEpBMfl3PH4L_uG-1" target="01sT2_j_ewfTkymeiKA3-11" edge="1" source="RFKSd0XwqTJ9vZxJifCU-4">
+        <mxCell id="01sT2_j_ewfTkymeiKA3-12" value="3.审核库存调整申请单()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;endSize=8;" parent="dMH_0dEpBMfl3PH4L_uG-1" target="01sT2_j_ewfTkymeiKA3-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="160" y="480" as="sourcePoint" />
           </mxGeometry>
@@ -132,7 +132,7 @@
         <mxCell id="B54YnUm7SQSFbyslBy3h-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="dMH_0dEpBMfl3PH4L_uG-1" vertex="1">
           <mxGeometry x="435" y="210" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="B54YnUm7SQSFbyslBy3h-2" value="1.新建库存调整申请单()&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;endSize=8;" parent="dMH_0dEpBMfl3PH4L_uG-1" target="B54YnUm7SQSFbyslBy3h-1" edge="1">
+        <mxCell id="B54YnUm7SQSFbyslBy3h-2" value="1.经销商零件担当、经理新建库存调整申请单()&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;endSize=8;" parent="dMH_0dEpBMfl3PH4L_uG-1" target="B54YnUm7SQSFbyslBy3h-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="160" y="210" as="sourcePoint" />
           </mxGeometry>
@@ -160,7 +160,7 @@
         <mxCell id="B54YnUm7SQSFbyslBy3h-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="dMH_0dEpBMfl3PH4L_uG-1" vertex="1">
           <mxGeometry x="435" y="340" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="B54YnUm7SQSFbyslBy3h-8" value="2.经销商零件担当/经理&amp;nbsp; 提交库存调整申请单()&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;endSize=8;" parent="dMH_0dEpBMfl3PH4L_uG-1" target="B54YnUm7SQSFbyslBy3h-7" edge="1">
+        <mxCell id="B54YnUm7SQSFbyslBy3h-8" value="2.经销商零件担当、经理提交库存调整申请单()&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;endSize=8;" parent="dMH_0dEpBMfl3PH4L_uG-1" target="B54YnUm7SQSFbyslBy3h-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="160" y="340" as="sourcePoint" />
           </mxGeometry>
@@ -182,20 +182,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hbXLV57Qmul_VOZRptlu-5" value="&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;&lt;span style=&quot;font-size: 11px ; text-align: left&quot;&gt;未提交的废单、全部驳回、全部通过的申请单&lt;/span&gt;&lt;br style=&quot;font-size: 11px ; text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px ; text-align: left&quot;&gt;30天后状态更新为已关闭&lt;/span&gt;&lt;/span&gt;" style="shape=note;size=4;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="dMH_0dEpBMfl3PH4L_uG-1" vertex="1">
-          <mxGeometry x="490" y="930" width="250" height="30" as="geometry" />
+        <mxCell id="hbXLV57Qmul_VOZRptlu-5" value="&lt;span style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;&lt;span style=&quot;font-size: 11px ; text-align: left&quot;&gt;未提交的废单、全部驳回、全部通过的申请单&lt;/span&gt;&lt;br style=&quot;font-size: 11px ; text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px ; text-align: left&quot;&gt;超过30天的申请单状态更新为已关闭&lt;/span&gt;&lt;/span&gt;" style="shape=note;size=4;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="dMH_0dEpBMfl3PH4L_uG-1" vertex="1">
+          <mxGeometry x="480" y="980" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hbXLV57Qmul_VOZRptlu-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="dMH_0dEpBMfl3PH4L_uG-1" edge="1">
+        <mxCell id="hbXLV57Qmul_VOZRptlu-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;endSize=8;entryX=0.196;entryY=-0.151;entryDx=0;entryDy=0;entryPerimeter=0;" parent="dMH_0dEpBMfl3PH4L_uG-1" edge="1" target="hbXLV57Qmul_VOZRptlu-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="910" as="sourcePoint" />
             <mxPoint x="520" y="930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RFKSd0XwqTJ9vZxJifCU-4" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;经销商零件担当/经理&amp;nbsp;&amp;nbsp;&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="dMH_0dEpBMfl3PH4L_uG-1">
-          <mxGeometry x="-50" y="120" width="100" height="870" as="geometry" />
+        <mxCell id="3NVWOy3F8VKgmfq68ax4-1" value="库存调整单-时序" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=90;height=20;" vertex="1" parent="dMH_0dEpBMfl3PH4L_uG-1">
+          <mxGeometry x="100" y="70" width="640" height="950" as="geometry" />
         </mxCell>
-        <mxCell id="01sT2_j_ewfTkymeiKA3-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="RFKSd0XwqTJ9vZxJifCU-4" vertex="1">
-          <mxGeometry x="45" y="360" width="10" height="370" as="geometry" />
+        <mxCell id="3NVWOy3F8VKgmfq68ax4-2" value="Loop:每日一次" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=100;height=20;" vertex="1" parent="dMH_0dEpBMfl3PH4L_uG-1">
+          <mxGeometry x="336" y="870" width="294" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
