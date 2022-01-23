@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T10:01:02.693Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="HNEpPnGE2oWDNGF2YeHe" version="16.2.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-01-23T10:15:44.315Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="7Ac6IpR5pQQAV1uo4qNu" version="16.2.7" type="github" pages="5">
   <diagram id="lNsWtbDS4W3nq3S98e4k" name="时序图">
     <mxGraphModel dx="1824" dy="975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -616,12 +616,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FMnitrcngXA8gfrCTK8x-0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#1A1A1A;fillColor=#FFFFFF;" vertex="1" parent="jQHzYyg98gtsrOXya8PH-1">
-          <mxGeometry x="605" y="500" width="10" height="80" as="geometry" />
+          <mxGeometry x="605" y="500" width="10" height="110" as="geometry" />
         </mxCell>
         <mxCell id="FMnitrcngXA8gfrCTK8x-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#1A1A1A;fillColor=#FFFFFF;" vertex="1" parent="jQHzYyg98gtsrOXya8PH-1">
           <mxGeometry x="615" y="530" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FMnitrcngXA8gfrCTK8x-2" value="1.2.1更新库存()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#1A1A1A;exitX=0.982;exitY=0.123;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="jQHzYyg98gtsrOXya8PH-1" source="FMnitrcngXA8gfrCTK8x-0" target="FMnitrcngXA8gfrCTK8x-1">
+        <mxCell id="FMnitrcngXA8gfrCTK8x-2" value="2.定时任务计算库存月平均数()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#1A1A1A;exitX=0.982;exitY=0.123;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="jQHzYyg98gtsrOXya8PH-1" source="FMnitrcngXA8gfrCTK8x-0" target="FMnitrcngXA8gfrCTK8x-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="350" as="sourcePoint" />
             <Array as="points">
