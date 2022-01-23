@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T12:16:20.317Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="einKpEikoByf1DxtmkDm" version="16.2.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-01-23T12:32:16.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="NkI0rTZ7QrwLceR7P3zF" version="16.2.7" type="github" pages="5">
   <diagram id="lNsWtbDS4W3nq3S98e4k" name="时序图">
-    <mxGraphModel dx="3204" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2723" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,7 +31,7 @@
         <mxCell id="3HUosEOKUJIBVcVZZFC8-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" vertex="1" parent="JzbQq2mm33j0v5oRrmCY-2">
           <mxGeometry x="55" y="1390" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3HUosEOKUJIBVcVZZFC8-16" value="5.定时更新零件档案中(MAD)月平均需求()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=0.904;exitY=0.127;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="3HUosEOKUJIBVcVZZFC8-15" parent="JzbQq2mm33j0v5oRrmCY-2" source="3HUosEOKUJIBVcVZZFC8-14">
+        <mxCell id="3HUosEOKUJIBVcVZZFC8-16" value="5.定时更新零件档案()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=0.904;exitY=0.127;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="3HUosEOKUJIBVcVZZFC8-15" parent="JzbQq2mm33j0v5oRrmCY-2" source="3HUosEOKUJIBVcVZZFC8-14">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="1370" as="sourcePoint" />
             <Array as="points">
@@ -107,54 +107,64 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3HUosEOKUJIBVcVZZFC8-17" value="loop：每月末24点" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=100;height=20;" vertex="1" parent="1">
-          <mxGeometry x="380" y="1500" width="380" height="110" as="geometry" />
+          <mxGeometry x="380" y="1500" width="270" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="3HUosEOKUJIBVcVZZFC8-18" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f8cecc;size=13;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="495" y="1620" width="365" height="70" as="geometry" />
+        <mxCell id="3HUosEOKUJIBVcVZZFC8-18" value="库存级别，月平均需求" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f8cecc;size=13;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1620" width="132.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3HUosEOKUJIBVcVZZFC8-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.179;exitY=1.02;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3HUosEOKUJIBVcVZZFC8-17" target="3HUosEOKUJIBVcVZZFC8-18">
+        <mxCell id="3HUosEOKUJIBVcVZZFC8-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.517;exitY=1.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3HUosEOKUJIBVcVZZFC8-17" target="3HUosEOKUJIBVcVZZFC8-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="800" y="1470" as="sourcePoint" />
             <mxPoint x="850" y="1420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7WFcRuY0L4WxOT2ca1TB-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="245" y="270" width="10" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="7WFcRuY0L4WxOT2ca1TB-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="675" y="270" width="10" height="80" as="geometry" />
+          <mxGeometry x="245" y="270" width="10" height="110" as="geometry" />
         </mxCell>
         <mxCell id="7WFcRuY0L4WxOT2ca1TB-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="685" y="300" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7WFcRuY0L4WxOT2ca1TB-4" value="1.1保存档案信息()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;endSize=10;exitX=1.015;exitY=0.127;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7WFcRuY0L4WxOT2ca1TB-2" target="7WFcRuY0L4WxOT2ca1TB-3">
+        <mxCell id="7WFcRuY0L4WxOT2ca1TB-4" value="1.1获取数据()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;endSize=10;exitX=1.015;exitY=0.127;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="7WFcRuY0L4WxOT2ca1TB-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250" y="120" as="sourcePoint" />
+            <mxPoint x="685.1500000000001" y="280.1600000000001" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="720" y="280" />
               <mxPoint x="720" y="300" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7WFcRuY0L4WxOT2ca1TB-5" value="1.实时获取库存订单上限()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;endSize=10;" edge="1" parent="1" target="7WFcRuY0L4WxOT2ca1TB-2">
+        <mxCell id="7WFcRuY0L4WxOT2ca1TB-5" value="1.实时获取每日库存订单上限()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;endSize=10;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="250" y="270" as="sourcePoint" />
+            <mxPoint x="675" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7WFcRuY0L4WxOT2ca1TB-6" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1.017;entryY=0.948;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="255.17000000000007" y="349.84000000000015" as="targetPoint" />
-            <mxPoint x="679.5" y="349.84000000000015" as="sourcePoint" />
+            <mxPoint x="255.17000000000007" y="359.84000000000015" as="targetPoint" />
+            <mxPoint x="679.5" y="359.84000000000015" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7WFcRuY0L4WxOT2ca1TB-8" value="DMP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="630" y="160" width="100" height="1880" as="geometry" />
         </mxCell>
+        <mxCell id="7WFcRuY0L4WxOT2ca1TB-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="675" y="270" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7WFcRuY0L4WxOT2ca1TB-10" value="获取每日库存上限，每日订单上限" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f8cecc;strokeColor=#b85450;size=8;" vertex="1" parent="1">
+          <mxGeometry x="730" y="320" width="183" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7WFcRuY0L4WxOT2ca1TB-11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontColor=#393939;entryX=0.273;entryY=-0.053;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7WFcRuY0L4WxOT2ca1TB-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="300" as="sourcePoint" />
+            <mxPoint x="500" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="8zh-h9Z2tof5ClCRBATN" name="创建-行为图">
-    <mxGraphModel dx="2818" dy="1507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1632" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="YmrrJd9TlxPIf48FfeS8-0" />
         <mxCell id="YmrrJd9TlxPIf48FfeS8-1" parent="YmrrJd9TlxPIf48FfeS8-0" />
