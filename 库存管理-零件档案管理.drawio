@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T10:53:18.295Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="7poXQZkFwf4yu-iTA65k" version="16.2.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-01-23T10:53:52.362Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="f3woXPkwedq3wAPA2GuC" version="16.2.7" type="github" pages="5">
   <diagram id="lNsWtbDS4W3nq3S98e4k" name="时序图">
     <mxGraphModel dx="2377" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -164,8 +164,8 @@
         <mxCell id="3HUosEOKUJIBVcVZZFC8-17" value="loop：每月末24点" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=100;height=20;" vertex="1" parent="1">
           <mxGeometry x="380" y="890" width="380" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="3HUosEOKUJIBVcVZZFC8-18" value="每月末24点后计算上一个月的值并实时上传计算结果&lt;br&gt;计算公式：(N-1)月出库合计数*6+(N-2)月*5+(N-3)月*4+(N-4)月*3+(N-5)月*2+(N-6)月*1）/21&amp;nbsp; &amp;nbsp;(N=当前月份)&lt;br&gt;出库合计数逻辑：内销、外销所有出库单里（字段“MAD反映”值是）的出库总数&amp;nbsp;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f8cecc;size=13;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="495" y="1010" width="365" height="70" as="geometry" />
+        <mxCell id="3HUosEOKUJIBVcVZZFC8-18" value="列出：需要计算字段" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f8cecc;size=13;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="495" y="1010" width="125" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3HUosEOKUJIBVcVZZFC8-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.179;exitY=1.02;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3HUosEOKUJIBVcVZZFC8-17" target="3HUosEOKUJIBVcVZZFC8-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
