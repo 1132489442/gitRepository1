@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T08:21:04.149Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="fz2APVXLyUS5lP8FC7js" version="16.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-23T08:39:35.030Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Zb0ePYHCSCBlj5_0qZGw" version="16.2.7" type="github" pages="4">
   <diagram id="K6y50GVgtAXHJ3oQSCxf" name="时序图">
     <mxGraphModel dx="1292" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -45,7 +45,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XKDUoo8fodvt92stpq9q" name="行为设计">
-    <mxGraphModel dx="1824" dy="975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1292" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="_K_Jtm2Ol_Yjrct9v4DW-0" />
         <mxCell id="_K_Jtm2Ol_Yjrct9v4DW-1" parent="_K_Jtm2Ol_Yjrct9v4DW-0" />
@@ -76,7 +76,7 @@
         <mxCell id="cnm_BUiiO8TFAdE2e_TO-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" vertex="1" parent="cnm_BUiiO8TFAdE2e_TO-6">
           <mxGeometry x="55" y="252" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cnm_BUiiO8TFAdE2e_TO-9" value="1.1.2.1更新库存金额()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;endSize=10;exitX=0.987;exitY=0.125;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="cnm_BUiiO8TFAdE2e_TO-6" source="cnm_BUiiO8TFAdE2e_TO-7" target="cnm_BUiiO8TFAdE2e_TO-8">
+        <mxCell id="cnm_BUiiO8TFAdE2e_TO-9" value="1.2.1.1更新库存金额()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;endSize=10;exitX=0.987;exitY=0.125;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="cnm_BUiiO8TFAdE2e_TO-6" source="cnm_BUiiO8TFAdE2e_TO-7" target="cnm_BUiiO8TFAdE2e_TO-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="232" as="sourcePoint" />
             <Array as="points">
@@ -89,17 +89,17 @@
           <mxGeometry x="430" y="160" width="100" height="400" as="geometry" />
         </mxCell>
         <mxCell id="cnm_BUiiO8TFAdE2e_TO-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" vertex="1" parent="cnm_BUiiO8TFAdE2e_TO-10">
-          <mxGeometry x="45" y="110" width="10" height="230" as="geometry" />
+          <mxGeometry x="45" y="210" width="10" height="130" as="geometry" />
         </mxCell>
         <mxCell id="cnm_BUiiO8TFAdE2e_TO-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" vertex="1" parent="cnm_BUiiO8TFAdE2e_TO-10">
-          <mxGeometry x="55" y="150" width="10" height="40" as="geometry" />
+          <mxGeometry x="-115" y="120" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cnm_BUiiO8TFAdE2e_TO-13" value="1.1.1参数合规性校验()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;endSize=10;" edge="1" parent="cnm_BUiiO8TFAdE2e_TO-10" target="cnm_BUiiO8TFAdE2e_TO-12">
+        <mxCell id="cnm_BUiiO8TFAdE2e_TO-13" value="1.1参数合规性校验()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;endSize=10;" edge="1" parent="cnm_BUiiO8TFAdE2e_TO-10" target="cnm_BUiiO8TFAdE2e_TO-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="130" as="sourcePoint" />
+            <mxPoint x="-115" y="100" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="90" y="130" />
-              <mxPoint x="90" y="150" />
+              <mxPoint x="-80" y="100" />
+              <mxPoint x="-80" y="120" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -109,7 +109,7 @@
             <mxPoint x="304.9999999999998" y="239.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cnm_BUiiO8TFAdE2e_TO-15" value="1.1.2调整零件金额()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;endSize=10;" edge="1" parent="_K_Jtm2Ol_Yjrct9v4DW-1" target="cnm_BUiiO8TFAdE2e_TO-7">
+        <mxCell id="cnm_BUiiO8TFAdE2e_TO-15" value="1.2.1调整零件金额()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;endSize=10;" edge="1" parent="_K_Jtm2Ol_Yjrct9v4DW-1" target="cnm_BUiiO8TFAdE2e_TO-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="484.9999999999998" y="382" as="sourcePoint" />
           </mxGeometry>
@@ -127,12 +127,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cnm_BUiiO8TFAdE2e_TO-18" value="库存金额调整-行为图" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=130;height=20;" vertex="1" parent="_K_Jtm2Ol_Yjrct9v4DW-1">
-          <mxGeometry x="50" y="120" width="760" height="440" as="geometry" />
+          <mxGeometry x="60" y="130" width="760" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="cnm_BUiiO8TFAdE2e_TO-19" value="1.1调用库存管理聚合&lt;br&gt;调整零件金额()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;endSize=10;exitX=1.046;exitY=0.087;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="_K_Jtm2Ol_Yjrct9v4DW-1">
+        <mxCell id="cnm_BUiiO8TFAdE2e_TO-19" value="1.2调用库存管理聚合&lt;br&gt;调整零件金额()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;endSize=10;exitX=1.046;exitY=0.087;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="_K_Jtm2Ol_Yjrct9v4DW-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="315.46000000000004" y="270.27999999999986" as="sourcePoint" />
-            <mxPoint x="479.5000000000002" y="270.27999999999986" as="targetPoint" />
+            <mxPoint x="315.46000000000004" y="370.27999999999986" as="sourcePoint" />
+            <mxPoint x="479.5000000000002" y="370.27999999999986" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
