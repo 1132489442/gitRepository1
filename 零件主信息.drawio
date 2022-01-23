@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T08:23:11.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="G6QuWdS1HXv3juAZyikO" version="16.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-23T08:24:05.060Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="X4BEWPjAphSvjf5kbPr2" version="16.2.7" type="github" pages="4">
   <diagram id="6bnHpI4cZpsdlI7_PELI" name="时序图">
     <mxGraphModel dx="2377" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -154,7 +154,7 @@
         <mxCell id="IHvkTjEI3uxPASRba5FX-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;" vertex="1" parent="IHvkTjEI3uxPASRba5FX-4">
           <mxGeometry x="45" y="100" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="IHvkTjEI3uxPASRba5FX-7" value="1.定时推送文件" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="IHvkTjEI3uxPASRba5FX-6" parent="7OLGIQ1EorespxrLgJ10-1">
+        <mxCell id="IHvkTjEI3uxPASRba5FX-7" value="1.I/F NO.1 CPM接口_零件主档信息获取 ()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="IHvkTjEI3uxPASRba5FX-6" parent="7OLGIQ1EorespxrLgJ10-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="30" y="260" as="sourcePoint" />
           </mxGeometry>
