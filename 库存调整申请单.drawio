@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T15:53:57.971Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="QLx11poATewD0CP-qKFt" version="16.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-23T16:04:03.786Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="ghP1At-E_w6jvwMPcFP6" version="16.2.7" type="github" pages="4">
   <diagram id="KpkEGQ409U3p1T-nQ_Iy" name="时序图">
-    <mxGraphModel dx="1550" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1806" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="dMH_0dEpBMfl3PH4L_uG-0" />
         <mxCell id="dMH_0dEpBMfl3PH4L_uG-1" parent="dMH_0dEpBMfl3PH4L_uG-0" />
@@ -40,7 +40,7 @@
         <mxCell id="01sT2_j_ewfTkymeiKA3-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="dMH_0dEpBMfl3PH4L_uG-1" vertex="1">
           <mxGeometry x="435" y="480" width="10" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="01sT2_j_ewfTkymeiKA3-12" value="3.审核库存调整申请单()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;endSize=8;" parent="dMH_0dEpBMfl3PH4L_uG-1" target="01sT2_j_ewfTkymeiKA3-11" edge="1">
+        <mxCell id="01sT2_j_ewfTkymeiKA3-12" value="3.总部审批业务担当 审核库存调整申请单()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;endSize=8;" parent="dMH_0dEpBMfl3PH4L_uG-1" target="01sT2_j_ewfTkymeiKA3-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="160" y="480" as="sourcePoint" />
           </mxGeometry>
@@ -353,7 +353,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="a7yvxRzjYRqS2Shdf80w" name="聚合根">
-    <mxGraphModel dx="1550" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1806" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="79y1Xv8FWdQJc0A-ZyRu-0" />
         <mxCell id="79y1Xv8FWdQJc0A-ZyRu-1" parent="79y1Xv8FWdQJc0A-ZyRu-0" />
