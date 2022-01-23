@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T16:10:53.756Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="HuWbqwF6wOn1Ed9GIz2J" version="16.2.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-01-23T16:11:16.838Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="n2_XK2_K52QZYhUgD6tu" version="16.2.7" type="github" pages="5">
   <diagram id="lNsWtbDS4W3nq3S98e4k" name="时序图">
     <mxGraphModel dx="2125" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -106,7 +106,7 @@
             <mxPoint x="80" y="720" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3HUosEOKUJIBVcVZZFC8-17" value="loop：每月末24点" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=100;height=20;" vertex="1" parent="1">
+        <mxCell id="3HUosEOKUJIBVcVZZFC8-17" value="Loop：每月末24点" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=110;height=20;" vertex="1" parent="1">
           <mxGeometry x="380" y="810" width="280" height="110" as="geometry" />
         </mxCell>
         <mxCell id="3HUosEOKUJIBVcVZZFC8-18" value="需要更新字段有库存级别，月平均需求" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f8cecc;size=13;strokeColor=#b85450;" vertex="1" parent="1">
