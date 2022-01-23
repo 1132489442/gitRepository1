@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T08:03:02.702Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="ywfO_uafkkCjRrFtRqQk" version="16.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-23T08:05:18.568Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="z5en1itweG-D0TNdgGYg" version="16.2.7" type="github" pages="4">
   <diagram id="KpkEGQ409U3p1T-nQ_Iy" name="时序图">
     <mxGraphModel dx="1550" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -198,7 +198,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1weqx7i3Zt6CdPhyrl3k" name="创建-行为图">
-    <mxGraphModel dx="2377" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="PVDpojOrxvgwT7yR8eio-0" />
         <mxCell id="PVDpojOrxvgwT7yR8eio-1" parent="PVDpojOrxvgwT7yR8eio-0" />
@@ -213,9 +213,6 @@
         </mxCell>
         <mxCell id="wpYmfyQto9yeINCN27tz-7" value="接口-BFF服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=#FFFFFF;strokeColor=default;fillColor=default;" parent="PVDpojOrxvgwT7yR8eio-1" vertex="1">
           <mxGeometry x="230" y="120" width="100" height="560" as="geometry" />
-        </mxCell>
-        <mxCell id="O2EZHqfp62wN0e4TGKcz-0" value="MQ消息事件总线" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=#FFFFFF;strokeColor=default;fillColor=default;" parent="PVDpojOrxvgwT7yR8eio-1" vertex="1">
-          <mxGeometry x="-150" y="120" width="100" height="560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -496,7 +493,7 @@
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p6dmz7aw35iFWnYbpZse-0" value="【共通】经销商店" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#FFFF99;" vertex="1" parent="79y1Xv8FWdQJc0A-ZyRu-1">
+        <mxCell id="p6dmz7aw35iFWnYbpZse-0" value="【共通】经销商" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#FFFF99;" vertex="1" parent="79y1Xv8FWdQJc0A-ZyRu-1">
           <mxGeometry x="70" y="440" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="p6dmz7aw35iFWnYbpZse-1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#FFFF99;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="p6dmz7aw35iFWnYbpZse-0">
