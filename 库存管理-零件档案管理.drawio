@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T10:35:49.717Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="6ppMG2h3SDQFLIupA0u6" version="16.2.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-01-23T10:53:02.692Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="VFqITpJ3AY7Aww6qmCLR" version="16.2.7" type="github" pages="5">
   <diagram id="lNsWtbDS4W3nq3S98e4k" name="时序图">
-    <mxGraphModel dx="1824" dy="975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2377" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JzbQq2mm33j0v5oRrmCY-1" value="零部件前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="JzbQq2mm33j0v5oRrmCY-1" value="销售店" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="200" y="160" width="100" height="840" as="geometry" />
         </mxCell>
         <mxCell id="JzbQq2mm33j0v5oRrmCY-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" parent="JzbQq2mm33j0v5oRrmCY-1" vertex="1">
@@ -99,7 +99,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Kxamir6cGaUyaSLpq8aT-8" value="零件档案核心流程时序图" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=150;height=15;" parent="1" vertex="1">
-          <mxGeometry x="20" y="130" width="840" height="960" as="geometry" />
+          <mxGeometry x="1480" y="90" width="840" height="960" as="geometry" />
         </mxCell>
         <mxCell id="JW2SbbSTRkyxnXx2aNZB-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="245" y="400" width="10" height="90" as="geometry" />
@@ -131,10 +131,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3HUosEOKUJIBVcVZZFC8-2" value="事件总线MQ" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="30" y="160" width="100" height="840" as="geometry" />
-        </mxCell>
-        <mxCell id="3HUosEOKUJIBVcVZZFC8-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" vertex="1" parent="3HUosEOKUJIBVcVZZFC8-2">
-          <mxGeometry x="45" y="520" width="10" height="80" as="geometry" />
+          <mxGeometry x="-270" y="160" width="100" height="840" as="geometry" />
         </mxCell>
         <mxCell id="3HUosEOKUJIBVcVZZFC8-5" value="4.接收事件总线MQ，采购入库更新库存()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="3HUosEOKUJIBVcVZZFC8-4" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -175,6 +172,24 @@
             <mxPoint x="800" y="860" as="sourcePoint" />
             <mxPoint x="850" y="810" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="D6uN7NrmjaDuC-DAHbQB-1" value="共通" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="780" y="160" width="100" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="D6uN7NrmjaDuC-DAHbQB-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" vertex="1" parent="D6uN7NrmjaDuC-DAHbQB-1">
+          <mxGeometry x="45" y="90" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="D6uN7NrmjaDuC-DAHbQB-3" value="DMP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="627.5" y="160" width="100" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="D6uN7NrmjaDuC-DAHbQB-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" vertex="1" parent="D6uN7NrmjaDuC-DAHbQB-3">
+          <mxGeometry x="45" y="90" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="D6uN7NrmjaDuC-DAHbQB-5" value="销售店仓库管理员" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="160" width="100" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="D6uN7NrmjaDuC-DAHbQB-7" value="零件业务担当" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="30" y="160" width="100" height="840" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
