@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T11:27:04.190Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="NdXms4rVhcvWLERbDCr2" version="16.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-23T11:35:50.577Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="7FehMQ_6lOyrNUmFOwaT" version="16.2.7" type="github" pages="4">
   <diagram id="6bnHpI4cZpsdlI7_PELI" name="时序图">
-    <mxGraphModel dx="2119" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2946" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="9qDZQP6KY1lODNuhh0SA-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9qDZQP6KY1lODNuhh0SA-1">
           <mxGeometry x="55" y="260" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9qDZQP6KY1lODNuhh0SA-6" value="2.定时任务触发，&lt;br&gt;从文档中读取零件主信息落地" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=1.083;exitY=0.13;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="9qDZQP6KY1lODNuhh0SA-5" parent="9qDZQP6KY1lODNuhh0SA-1" source="9qDZQP6KY1lODNuhh0SA-3">
+        <mxCell id="9qDZQP6KY1lODNuhh0SA-6" value="2.定时任务触发，&lt;br&gt;从服务器中读取零件主信息落地" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=1.083;exitY=0.13;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="9qDZQP6KY1lODNuhh0SA-5" parent="9qDZQP6KY1lODNuhh0SA-1" source="9qDZQP6KY1lODNuhh0SA-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="240" as="sourcePoint" />
             <Array as="points">
@@ -42,15 +42,6 @@
         </mxCell>
         <mxCell id="9qDZQP6KY1lODNuhh0SA-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9qDZQP6KY1lODNuhh0SA-2">
           <mxGeometry x="45" y="380" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="9qDZQP6KY1lODNuhh0SA-7" value="文件由CPM自动定时推送" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="430" y="430" width="140" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="9qDZQP6KY1lODNuhh0SA-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="9qDZQP6KY1lODNuhh0SA-7">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="420" as="sourcePoint" />
-            <mxPoint x="410" y="340" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="9qDZQP6KY1lODNuhh0SA-13" value="3.批量导入零件主信息()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="9qDZQP6KY1lODNuhh0SA-12" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -91,7 +82,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9qDZQP6KY1lODNuhh0SA-27" value="零件主信息-时序图" style="shape=umlFrame;whiteSpace=wrap;html=1;width=110;height=20;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="120" width="710" height="680" as="geometry" />
+          <mxGeometry x="-920" y="120" width="710" height="680" as="geometry" />
         </mxCell>
         <mxCell id="NSKzPpxyFT8icQPAhpy8-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="365" y="270" width="10" height="80" as="geometry" />
@@ -99,7 +90,7 @@
         <mxCell id="NSKzPpxyFT8icQPAhpy8-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="375" y="300" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NSKzPpxyFT8icQPAhpy8-3" value="1.1保存文档信息()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=1.041;exitY=0.124;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NSKzPpxyFT8icQPAhpy8-1" target="NSKzPpxyFT8icQPAhpy8-2">
+        <mxCell id="NSKzPpxyFT8icQPAhpy8-3" value="1.1保存文档信息至服务器()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=1.041;exitY=0.124;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NSKzPpxyFT8icQPAhpy8-1" target="NSKzPpxyFT8icQPAhpy8-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="120" as="sourcePoint" />
             <Array as="points">
@@ -108,7 +99,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NSKzPpxyFT8icQPAhpy8-5" value="1.I/F NO.1 CPM接口_零件主档信息获取 ()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" target="NSKzPpxyFT8icQPAhpy8-1" source="NSKzPpxyFT8icQPAhpy8-7">
+        <mxCell id="NSKzPpxyFT8icQPAhpy8-5" value="1.I/F NO.1 CPM接口_推送零件主档信息 ()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" target="NSKzPpxyFT8icQPAhpy8-1" source="NSKzPpxyFT8icQPAhpy8-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="140" y="270" as="sourcePoint" />
           </mxGeometry>
@@ -120,13 +111,10 @@
           <mxGeometry x="45" y="110" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_NN9X6couP_DBShU06uS-1" value="loop：每日一次" style="shape=umlFrame;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;width=100;height=20;" vertex="1" parent="1">
-          <mxGeometry x="250" y="380" width="330" height="100" as="geometry" />
+          <mxGeometry x="260" y="380" width="330" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_NN9X6couP_DBShU06uS-2" value="loop:每日一次" style="shape=umlFrame;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;width=90;height=20;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="240" width="620" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="0LhO0kPZMSav9xcN-yCG-1" value="接送至服务器" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;size=12;" vertex="1" parent="1">
-          <mxGeometry x="620" y="230" width="80" height="60" as="geometry" />
+          <mxGeometry x="-90" y="240" width="650" height="120" as="geometry" />
         </mxCell>
         <mxCell id="0LhO0kPZMSav9xcN-yCG-2" value="加框" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;size=12;" vertex="1" parent="1">
           <mxGeometry x="640" y="620" width="80" height="60" as="geometry" />
