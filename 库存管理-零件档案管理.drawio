@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T10:03:13.014Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="0SuwS-au7fq8vIDwXBX8" version="16.4.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-01-24T10:04:46.777Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="jMsi-1Vf14nWpBK3OW4-" version="16.4.5" type="github" pages="5">
   <diagram id="lNsWtbDS4W3nq3S98e4k" name="时序图">
     <mxGraphModel dx="1505" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -162,7 +162,7 @@
         <mxCell id="dJslFrM7V2pfln8Kt-XX-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" parent="YmrrJd9TlxPIf48FfeS8-1" vertex="1">
           <mxGeometry x="605" y="370" width="10" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="dJslFrM7V2pfln8Kt-XX-23" value="1.4.2调用基础设置聚合&lt;br&gt;零件担当人创建零件档案()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;endSize=10;exitX=1.046;exitY=0.087;exitDx=0;exitDy=0;exitPerimeter=0;" parent="YmrrJd9TlxPIf48FfeS8-1" edge="1">
+        <mxCell id="dJslFrM7V2pfln8Kt-XX-23" value="1.2调用基础设置聚合&lt;br&gt;零件担当人创建零件档案()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;endSize=10;exitX=1.046;exitY=0.087;exitDx=0;exitDy=0;exitPerimeter=0;" parent="YmrrJd9TlxPIf48FfeS8-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="445.4599999999998" y="370.01" as="sourcePoint" />
             <mxPoint x="605" y="370" as="targetPoint" />
@@ -171,7 +171,7 @@
         <mxCell id="dJslFrM7V2pfln8Kt-XX-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" parent="YmrrJd9TlxPIf48FfeS8-1" vertex="1">
           <mxGeometry x="445" y="293" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dJslFrM7V2pfln8Kt-XX-25" value="1.4.1参数合规性校验()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;endSize=10;exitX=1.041;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="YmrrJd9TlxPIf48FfeS8-1" target="dJslFrM7V2pfln8Kt-XX-24" edge="1">
+        <mxCell id="dJslFrM7V2pfln8Kt-XX-25" value="1.1参数合规性校验()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;endSize=10;exitX=1.041;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="YmrrJd9TlxPIf48FfeS8-1" target="dJslFrM7V2pfln8Kt-XX-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="445.4100000000001" y="273" as="sourcePoint" />
             <Array as="points">
@@ -180,13 +180,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dJslFrM7V2pfln8Kt-XX-26" value="1.4零件担当人创建零件档案()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;endSize=10;" parent="YmrrJd9TlxPIf48FfeS8-1" edge="1">
+        <mxCell id="dJslFrM7V2pfln8Kt-XX-26" value="1.零件担当人创建零件档案()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;endSize=10;" parent="YmrrJd9TlxPIf48FfeS8-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="255.0999999999999" y="260" as="sourcePoint" />
             <mxPoint x="435" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dJslFrM7V2pfln8Kt-XX-27" value="1.4.2.1创建零件档案()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;endSize=10;" parent="YmrrJd9TlxPIf48FfeS8-1" target="dJslFrM7V2pfln8Kt-XX-19" edge="1">
+        <mxCell id="dJslFrM7V2pfln8Kt-XX-27" value="1.2.1调用基础原子服务&lt;br&gt;创建零件档案()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;endSize=10;" parent="YmrrJd9TlxPIf48FfeS8-1" target="dJslFrM7V2pfln8Kt-XX-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="615" y="382" as="sourcePoint" />
           </mxGeometry>
@@ -201,15 +201,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="445" y="480" as="targetPoint" />
             <mxPoint x="605" y="480" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sC-svdxel8OAptccYJ85-0" value="基于零件主信息，货位，分类去创建档案，保存后也可重新编辑保存" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f8cecc;size=7;strokeColor=#b85450;" parent="YmrrJd9TlxPIf48FfeS8-1" vertex="1">
-          <mxGeometry x="827" y="342" width="143" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="sC-svdxel8OAptccYJ85-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;endSize=10;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="YmrrJd9TlxPIf48FfeS8-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="809.0000000000002" y="392" as="sourcePoint" />
-            <mxPoint x="827" y="367" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
