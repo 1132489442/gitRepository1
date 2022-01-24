@@ -1,46 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T07:44:44.136Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="omiQv8muN3umoEVjokgM" version="16.4.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-24T08:05:54.797Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="UzEXYW4u30NNHmaWbCck" version="16.4.5" type="github" pages="4">
   <diagram id="K6y50GVgtAXHJ3oQSCxf" name="时序图">
     <mxGraphModel dx="1806" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WIFSx8i0SPJmIHeVR3HI-1" value="零部件库存" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="390" y="200" width="100" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="WIFSx8i0SPJmIHeVR3HI-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="WIFSx8i0SPJmIHeVR3HI-1" vertex="1">
-          <mxGeometry x="45" y="90" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="WIFSx8i0SPJmIHeVR3HI-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="WIFSx8i0SPJmIHeVR3HI-1" vertex="1">
-          <mxGeometry x="55" y="120" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="WIFSx8i0SPJmIHeVR3HI-8" value="1.1更新库存金额()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=0.956;exitY=0.128;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIFSx8i0SPJmIHeVR3HI-1" source="WIFSx8i0SPJmIHeVR3HI-4" target="WIFSx8i0SPJmIHeVR3HI-7" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="60" y="100" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="90" y="100" />
-              <mxPoint x="90" y="120" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WIFSx8i0SPJmIHeVR3HI-2" value="零部件前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="180" y="200" width="100" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="WIFSx8i0SPJmIHeVR3HI-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="WIFSx8i0SPJmIHeVR3HI-2" vertex="1">
-          <mxGeometry x="45" y="90" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="WIFSx8i0SPJmIHeVR3HI-5" value="1.经销商零件担当、零件经理&lt;br&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;调整本店零件的库存金额()&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" target="WIFSx8i0SPJmIHeVR3HI-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="230" y="290" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WIFSx8i0SPJmIHeVR3HI-6" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;entryX=1.004;entryY=0.949;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="WIFSx8i0SPJmIHeVR3HI-4" target="WIFSx8i0SPJmIHeVR3HI-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="230" y="366" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="o7Ur5fYOxb8nZD7w-OHj-1" value="库存金额调整-时序图" style="shape=umlFrame;whiteSpace=wrap;html=1;width=130;height=20;" parent="1" vertex="1">
-          <mxGeometry x="170" y="170" width="420" height="230" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
