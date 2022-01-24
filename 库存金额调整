@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T08:51:16.244Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="JMb0qhtsB3C0Xh98IlP0" version="16.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-24T01:09:09.961Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="jPI-XPxfGdMVP8HRQD4h" version="16.2.7" type="github" pages="4">
   <diagram id="K6y50GVgtAXHJ3oQSCxf" name="时序图">
-    <mxGraphModel dx="1292" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1505" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -45,7 +45,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XKDUoo8fodvt92stpq9q" name="行为设计">
-    <mxGraphModel dx="1292" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1505" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="_K_Jtm2Ol_Yjrct9v4DW-0" />
         <mxCell id="_K_Jtm2Ol_Yjrct9v4DW-1" parent="_K_Jtm2Ol_Yjrct9v4DW-0" />
@@ -139,7 +139,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VZe5W3S-P6BDO0_0jj-s" name="事件设计">
-    <mxGraphModel dx="1550" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1806" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WkEhYLCNLF1F9oNTBdvM-0" />
         <mxCell id="WkEhYLCNLF1F9oNTBdvM-1" parent="WkEhYLCNLF1F9oNTBdvM-0" />
@@ -147,7 +147,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="um0tMVD2im-SjFLLG5LV" name="聚合根">
-    <mxGraphModel dx="1550" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="722" dy="382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0M60EH2XHKjjdK8FPoCG-0" />
         <mxCell id="0M60EH2XHKjjdK8FPoCG-1" parent="0M60EH2XHKjjdK8FPoCG-0" />
@@ -248,10 +248,10 @@
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I_znSPpo-T0m548e9992-0" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0M60EH2XHKjjdK8FPoCG-1" source="0M60EH2XHKjjdK8FPoCG-6" target="0M60EH2XHKjjdK8FPoCG-34">
+        <mxCell id="sPTBKsRqmWdvoy2PD36j-0" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0M60EH2XHKjjdK8FPoCG-1" source="0M60EH2XHKjjdK8FPoCG-6" target="0M60EH2XHKjjdK8FPoCG-34">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
-            <mxPoint x="450" y="380" as="sourcePoint" />
-            <mxPoint x="610" y="380" as="targetPoint" />
+            <mxPoint x="430" y="500" as="sourcePoint" />
+            <mxPoint x="590" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
