@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T10:58:13.669Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Q1ztELIKFYwya8YTH0F9" version="16.4.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-24T11:00:37.088Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="U91jpP0ePR7aA_NouXJn" version="16.4.5" type="github" pages="4">
   <diagram id="KpkEGQ409U3p1T-nQ_Iy" name="时序图">
     <mxGraphModel dx="1806" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -379,12 +379,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kdZGtH4mZ9aiySJ-_8Ck" name="事件图">
-    <mxGraphModel dx="1246" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1246" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="3W6WqJMpqGZ4H0qzBmMQ-0" />
         <mxCell id="3W6WqJMpqGZ4H0qzBmMQ-1" parent="3W6WqJMpqGZ4H0qzBmMQ-0" />
         <mxCell id="3W6WqJMpqGZ4H0qzBmMQ-2" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=#B9E0A5;" parent="3W6WqJMpqGZ4H0qzBmMQ-1" vertex="1">
-          <mxGeometry x="440" y="200" width="850" height="430" as="geometry" />
+          <mxGeometry x="440" y="200" width="900" height="430" as="geometry" />
         </mxCell>
         <mxCell id="3W6WqJMpqGZ4H0qzBmMQ-8" value="库存调整事件流转" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="3W6WqJMpqGZ4H0qzBmMQ-1" vertex="1">
           <mxGeometry x="445" y="210" width="110" height="20" as="geometry" />
@@ -489,6 +489,22 @@
             <mxPoint x="675" y="395" as="sourcePoint" />
             <mxPoint x="1005" y="605" as="targetPoint" />
             <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UFo19zcwUceA6o-k5zLB-0" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;零件档案：库存&lt;/span&gt;" style="html=1;fillColor=#FFFFFF;" vertex="1" parent="3W6WqJMpqGZ4H0qzBmMQ-1">
+          <mxGeometry x="1360" y="335" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UFo19zcwUceA6o-k5zLB-1" value="更新" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;endFill=1;endSize=8;dashed=1;" edge="1" parent="3W6WqJMpqGZ4H0qzBmMQ-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1280" y="354.66000000000014" as="sourcePoint" />
+            <mxPoint x="1360" y="354.9500000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UFo19zcwUceA6o-k5zLB-2" value="通过的更新" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;endFill=1;endSize=8;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="3W6WqJMpqGZ4H0qzBmMQ-1" source="4SFHawzw00CQyHeP9pkp-8" target="UFo19zcwUceA6o-k5zLB-0">
+          <mxGeometry x="-0.1146" y="-7" width="80" relative="1" as="geometry">
+            <mxPoint x="1290" y="364.6600000000001" as="sourcePoint" />
+            <mxPoint x="1370" y="364.95000000000005" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
