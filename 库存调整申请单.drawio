@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T02:54:48.961Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="rQhawmPOPAB_iSxnx8Tw" version="16.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-24T02:56:06.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="bw_vY6yrU_3AChUgV4_b" version="16.2.7" type="github" pages="4">
   <diagram id="KpkEGQ409U3p1T-nQ_Iy" name="时序图">
     <mxGraphModel dx="1246" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -192,7 +192,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3NVWOy3F8VKgmfq68ax4-1" value="库存调整单-时序" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=90;height=20;" vertex="1" parent="dMH_0dEpBMfl3PH4L_uG-1">
-          <mxGeometry x="100" y="90" width="30" height="930" as="geometry" />
+          <mxGeometry x="100" y="90" width="630" height="930" as="geometry" />
         </mxCell>
         <mxCell id="3NVWOy3F8VKgmfq68ax4-2" value="Loop:每日一次" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=100;height=20;" vertex="1" parent="dMH_0dEpBMfl3PH4L_uG-1">
           <mxGeometry x="336" y="870" width="294" height="100" as="geometry" />
