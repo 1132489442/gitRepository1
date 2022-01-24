@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T09:44:21.566Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="ugFdkebsCfJbLxqTNwlY" version="16.4.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-01-24T09:46:45.348Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="-bvnFBQdiaOM_MhKM5P7" version="16.4.5" type="github" pages="5">
   <diagram id="lNsWtbDS4W3nq3S98e4k" name="时序图">
     <mxGraphModel dx="1505" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,17 +11,17 @@
           <mxGeometry x="440" y="160" width="100" height="600" as="geometry" />
         </mxCell>
         <mxCell id="3HUosEOKUJIBVcVZZFC8-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" parent="JzbQq2mm33j0v5oRrmCY-2" vertex="1">
-          <mxGeometry x="45" y="280" width="10" height="80" as="geometry" />
+          <mxGeometry x="45" y="250" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3HUosEOKUJIBVcVZZFC8-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" parent="JzbQq2mm33j0v5oRrmCY-2" vertex="1">
-          <mxGeometry x="55" y="310" width="10" height="40" as="geometry" />
+          <mxGeometry x="55" y="280" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3HUosEOKUJIBVcVZZFC8-8" value="2.1更新库存()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=1.029;exitY=0.125;exitDx=0;exitDy=0;exitPerimeter=0;" parent="JzbQq2mm33j0v5oRrmCY-2" source="3HUosEOKUJIBVcVZZFC8-4" target="3HUosEOKUJIBVcVZZFC8-7" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="60" y="290" as="sourcePoint" />
+            <mxPoint x="60" y="260" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="90" y="290" />
-              <mxPoint x="90" y="310" />
+              <mxPoint x="90" y="260" />
+              <mxPoint x="90" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -69,54 +69,48 @@
             <mxPoint x="485" y="340" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kxamir6cGaUyaSLpq8aT-8" value="零件档案核心流程时序图" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=150;height=15;" parent="1" vertex="1">
-          <mxGeometry x="20" y="130" width="660" height="680" as="geometry" />
+        <mxCell id="Kxamir6cGaUyaSLpq8aT-8" value="Par" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=40;height=15;" parent="1" vertex="1">
+          <mxGeometry x="30" y="380" width="590" height="230" as="geometry" />
         </mxCell>
         <mxCell id="3HUosEOKUJIBVcVZZFC8-2" value="事件总线MQ" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="30" y="160" width="100" height="600" as="geometry" />
         </mxCell>
         <mxCell id="3HUosEOKUJIBVcVZZFC8-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" parent="3HUosEOKUJIBVcVZZFC8-2" vertex="1">
-          <mxGeometry x="45" y="280" width="10" height="80" as="geometry" />
+          <mxGeometry x="45" y="250" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3HUosEOKUJIBVcVZZFC8-5" value="2.接收事件总线MQ，采购入库更新库存()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;dashed=1;" parent="1" target="3HUosEOKUJIBVcVZZFC8-4" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="440" as="sourcePoint" />
+            <mxPoint x="80" y="410" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3HUosEOKUJIBVcVZZFC8-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="485" y="550" width="10" height="80" as="geometry" />
+          <mxGeometry x="485" y="520" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3HUosEOKUJIBVcVZZFC8-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="495" y="580" width="10" height="40" as="geometry" />
+          <mxGeometry x="495" y="550" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3HUosEOKUJIBVcVZZFC8-11" value="3.1更新库存()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=1.029;exitY=0.125;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3HUosEOKUJIBVcVZZFC8-9" target="3HUosEOKUJIBVcVZZFC8-10" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="60" y="400" as="sourcePoint" />
+            <mxPoint x="60" y="370" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="530" y="560" />
-              <mxPoint x="530" y="580" />
+              <mxPoint x="530" y="530" />
+              <mxPoint x="530" y="550" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="3HUosEOKUJIBVcVZZFC8-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="75" y="550" width="10" height="80" as="geometry" />
+          <mxGeometry x="75" y="520" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3HUosEOKUJIBVcVZZFC8-13" value="3.接收事件总线MQ，销售出库更新库存()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;dashed=1;" parent="1" target="3HUosEOKUJIBVcVZZFC8-9" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="550" as="sourcePoint" />
+            <mxPoint x="80" y="520" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3HUosEOKUJIBVcVZZFC8-17" value="Loop：每月末24点" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=110;height=20;" parent="1" vertex="1">
-          <mxGeometry x="380" y="640" width="280" height="120" as="geometry" />
+          <mxGeometry x="450" y="640" width="210" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="3HUosEOKUJIBVcVZZFC8-18" value="需要更新字段有库存级别，月平均需求" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f8cecc;size=13;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="540" y="770" width="132.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3HUosEOKUJIBVcVZZFC8-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.517;exitY=1.01;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3HUosEOKUJIBVcVZZFC8-17" target="3HUosEOKUJIBVcVZZFC8-18" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="800" y="620" as="sourcePoint" />
-            <mxPoint x="850" y="570" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="hz9IbGAhIYEQO6l7t5m6-1" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="495" width="590" height="8" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -222,7 +216,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="O318636WWvHr_xf7nubb" name="更新库存-行为">
-    <mxGraphModel dx="1246" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1806" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="jQHzYyg98gtsrOXya8PH-0" />
         <mxCell id="jQHzYyg98gtsrOXya8PH-1" parent="jQHzYyg98gtsrOXya8PH-0" />
