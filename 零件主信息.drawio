@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T09:25:16.770Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Xw2jJAFz05_n0YwbAPtE" version="16.4.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-24T09:38:20.577Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="lL1UjDKiQEc62CWTwFnr" version="16.4.5" type="github" pages="4">
   <diagram id="6bnHpI4cZpsdlI7_PELI" name="时序图">
-    <mxGraphModel dx="2633" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2332" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -81,9 +81,6 @@
             <mxPoint x="140" y="766" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9qDZQP6KY1lODNuhh0SA-27" value="零件主信息-时序图" style="shape=umlFrame;whiteSpace=wrap;html=1;width=110;height=20;" parent="1" vertex="1">
-          <mxGeometry x="-100" y="120" width="710" height="680" as="geometry" />
-        </mxCell>
         <mxCell id="NSKzPpxyFT8icQPAhpy8-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="365" y="270" width="10" height="80" as="geometry" />
         </mxCell>
@@ -110,7 +107,7 @@
         <mxCell id="NSKzPpxyFT8icQPAhpy8-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="NSKzPpxyFT8icQPAhpy8-7" vertex="1">
           <mxGeometry x="45" y="110" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_NN9X6couP_DBShU06uS-1" value="Loop：每日一次" style="shape=umlFrame;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;width=100;height=20;" parent="1" vertex="1">
+        <mxCell id="_NN9X6couP_DBShU06uS-1" value="Loop" style="shape=umlFrame;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;width=40;height=20;" parent="1" vertex="1">
           <mxGeometry x="260" y="380" width="330" height="100" as="geometry" />
         </mxCell>
         <mxCell id="0LydJXx7M0l3ICLnaT1j-2" value="Opt:创建数据" style="shape=umlFrame;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#393939;fillColor=#FFFFFF;width=90;height=20;" parent="1" vertex="1">
@@ -119,14 +116,23 @@
         <mxCell id="0LydJXx7M0l3ICLnaT1j-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=#FFFFFF;fontColor=#393939;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="646" width="570" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="-hw4QSPwFotWUhY3wTBO-2" value="Loop:每日一次" style="shape=umlFrame;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;width=90;height=20;" parent="1" vertex="1">
+        <mxCell id="-hw4QSPwFotWUhY3wTBO-2" value="Loop" style="shape=umlFrame;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;width=40;height=20;" parent="1" vertex="1">
           <mxGeometry x="-90" y="240" width="650" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6ohJSaFs3OZKNF7ckTL_-1" value="零件主信息-时序图" style="shape=umlFrame;whiteSpace=wrap;html=1;width=110;height=20;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="130" width="710" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="6ohJSaFs3OZKNF7ckTL_-2" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;【&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;每日一次&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;】&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="240" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6ohJSaFs3OZKNF7ckTL_-3" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;【&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;每日一次&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;】&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="400" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="FOFnYMLGnaj3QQaz7xhX" name="定时任务-行为图">
-    <mxGraphModel dx="2633" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2952" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="7OLGIQ1EorespxrLgJ10-0" />
         <mxCell id="7OLGIQ1EorespxrLgJ10-1" parent="7OLGIQ1EorespxrLgJ10-0" />
