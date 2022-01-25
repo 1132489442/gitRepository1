@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T03:04:39.701Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="dsEZclU66h3skZF8ME1O" version="16.4.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-25T03:06:21.129Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="SbS9mUc-SMAVbl9mof7-" version="16.4.5" type="github" pages="6">
   <diagram id="umNzM8Ve97_fDtR-dAsz" name="时序图">
     <mxGraphModel dx="1806" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -496,7 +496,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IIwlmyjP_WbKXo_7debG" name="更新库存数行为图">
-    <mxGraphModel dx="1806" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1246" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="VwcgP75mEG6ZukQKdxs_-0" />
         <mxCell id="VwcgP75mEG6ZukQKdxs_-1" parent="VwcgP75mEG6ZukQKdxs_-0" />
@@ -560,7 +560,7 @@
             <mxPoint x="284.9999999999998" y="239.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qpBS98LPw2g14_qkp78n-14" value="1.1.2修改库存数()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;endSize=10;" parent="VwcgP75mEG6ZukQKdxs_-1" target="qpBS98LPw2g14_qkp78n-6" edge="1">
+        <mxCell id="qpBS98LPw2g14_qkp78n-14" value="1.1.2调用基础原子服务()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;endSize=10;" parent="VwcgP75mEG6ZukQKdxs_-1" target="qpBS98LPw2g14_qkp78n-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="464.9999999999998" y="382" as="sourcePoint" />
           </mxGeometry>
@@ -577,9 +577,6 @@
             <mxPoint x="454.9999999999998" y="499.9999999999998" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qpBS98LPw2g14_qkp78n-17" value="更新库存数-行为图" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=130;height=20;" parent="VwcgP75mEG6ZukQKdxs_-1" vertex="1">
-          <mxGeometry x="30" y="120" width="800" height="440" as="geometry" />
-        </mxCell>
         <mxCell id="qpBS98LPw2g14_qkp78n-18" value="1.1调用库存管理聚合&lt;br&gt;修改库存盘点库存数()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;endSize=10;exitX=1.046;exitY=0.087;exitDx=0;exitDy=0;exitPerimeter=0;" parent="VwcgP75mEG6ZukQKdxs_-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="295.46000000000004" y="270.27999999999986" as="sourcePoint" />
@@ -594,6 +591,9 @@
             <mxPoint x="500" y="310" as="sourcePoint" />
             <mxPoint x="440" y="310" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="4W-Kva5yYriedRShb9_x-0" value="更新库存数-行为图" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=130;height=20;" vertex="1" parent="VwcgP75mEG6ZukQKdxs_-1">
+          <mxGeometry x="30" y="120" width="800" height="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
