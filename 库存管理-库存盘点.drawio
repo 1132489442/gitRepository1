@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T03:20:40.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="McWctLSebLZ1THuqUu7M" version="16.4.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-25T03:21:03.800Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Qt40vnk0iBHmJy8h2v4t" version="16.4.5" type="github" pages="6">
   <diagram id="umNzM8Ve97_fDtR-dAsz" name="时序图">
     <mxGraphModel dx="1806" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -501,7 +501,7 @@
             <mxPoint x="55" y="360" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qpBS98LPw2g14_qkp78n-5" value="领域层-零件基础原子服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;" parent="VwcgP75mEG6ZukQKdxs_-1" vertex="1">
+        <mxCell id="qpBS98LPw2g14_qkp78n-5" value="领域层-库存管理原子服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;" parent="VwcgP75mEG6ZukQKdxs_-1" vertex="1">
           <mxGeometry x="580" y="160" width="100" height="400" as="geometry" />
         </mxCell>
         <mxCell id="qpBS98LPw2g14_qkp78n-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" parent="qpBS98LPw2g14_qkp78n-5" vertex="1">
@@ -543,7 +543,7 @@
             <mxPoint x="284.9999999999998" y="239.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qpBS98LPw2g14_qkp78n-14" value="1.1.2调用基础原子服务()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;endSize=10;" parent="VwcgP75mEG6ZukQKdxs_-1" target="qpBS98LPw2g14_qkp78n-6" edge="1">
+        <mxCell id="qpBS98LPw2g14_qkp78n-14" value="1.1.2调用库存管理原子服务()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;endSize=10;" parent="VwcgP75mEG6ZukQKdxs_-1" target="qpBS98LPw2g14_qkp78n-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="464.9999999999998" y="382" as="sourcePoint" />
           </mxGeometry>
@@ -574,9 +574,6 @@
             <mxPoint x="500" y="310" as="sourcePoint" />
             <mxPoint x="440" y="310" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="4W-Kva5yYriedRShb9_x-0" value="更新库存数-行为图" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=130;height=20;" vertex="1" parent="VwcgP75mEG6ZukQKdxs_-1">
-          <mxGeometry x="30" y="120" width="800" height="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
