@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T09:20:27.960Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="mxxgCWZ5aKV4hcvtob7I" version="16.4.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-25T03:11:14.763Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="rr4oq4nGp1xbsLi80Kzv" version="16.4.5" type="github" pages="4">
   <diagram id="K6y50GVgtAXHJ3oQSCxf" name="时序图">
     <mxGraphModel dx="1806" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -72,7 +72,7 @@
             <mxPoint x="304.9999999999998" y="239.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cnm_BUiiO8TFAdE2e_TO-15" value="1.2.1调整零件金额()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;endSize=10;" parent="_K_Jtm2Ol_Yjrct9v4DW-1" target="cnm_BUiiO8TFAdE2e_TO-7" edge="1">
+        <mxCell id="cnm_BUiiO8TFAdE2e_TO-15" value="1.2.1调用基础原子服务()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;endSize=10;" parent="_K_Jtm2Ol_Yjrct9v4DW-1" target="cnm_BUiiO8TFAdE2e_TO-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="484.9999999999998" y="382" as="sourcePoint" />
           </mxGeometry>
@@ -89,14 +89,14 @@
             <mxPoint x="474.9999999999998" y="499.9999999999998" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cnm_BUiiO8TFAdE2e_TO-18" value="库存金额调整-行为图" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=130;height=20;" parent="_K_Jtm2Ol_Yjrct9v4DW-1" vertex="1">
-          <mxGeometry x="60" y="130" width="760" height="440" as="geometry" />
-        </mxCell>
         <mxCell id="cnm_BUiiO8TFAdE2e_TO-19" value="1.2调用库存管理聚合&lt;br&gt;调整零件金额()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;endSize=10;exitX=1.046;exitY=0.087;exitDx=0;exitDy=0;exitPerimeter=0;" parent="_K_Jtm2Ol_Yjrct9v4DW-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="315.46000000000004" y="370.27999999999986" as="sourcePoint" />
             <mxPoint x="479.5000000000002" y="370.27999999999986" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="wnxptOFvPLtB-kwzHZ0t-0" value="库存金额调整-行为图" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=130;height=20;" vertex="1" parent="_K_Jtm2Ol_Yjrct9v4DW-1">
+          <mxGeometry x="60" y="130" width="760" height="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -110,7 +110,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="um0tMVD2im-SjFLLG5LV" name="聚合根">
-    <mxGraphModel dx="1806" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1806" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0M60EH2XHKjjdK8FPoCG-0" />
         <mxCell id="0M60EH2XHKjjdK8FPoCG-1" parent="0M60EH2XHKjjdK8FPoCG-0" />
