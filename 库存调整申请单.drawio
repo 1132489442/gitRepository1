@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T08:17:24.297Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="k7g8CZyb9788iWUnN3hY" version="16.4.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-25T08:18:05.155Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="-P9rJ27m6V3ZcFzl47fj" version="16.4.5" type="github" pages="4">
   <diagram id="KpkEGQ409U3p1T-nQ_Iy" name="时序图">
     <mxGraphModel dx="1806" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -477,7 +477,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HCpisPJP8-vCLjsSUQ_C-26" value="事件通知下发库存盘点" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HCpisPJP8-vCLjsSUQ_C-25">
+        <mxCell id="HCpisPJP8-vCLjsSUQ_C-26" value="事件通知下发库存调整" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HCpisPJP8-vCLjsSUQ_C-25">
           <mxGeometry x="-0.0197" y="9" relative="1" as="geometry">
             <mxPoint x="11" y="-9" as="offset" />
           </mxGeometry>
@@ -485,7 +485,7 @@
         <mxCell id="HCpisPJP8-vCLjsSUQ_C-0" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;事件总线MQ&lt;/span&gt;" style="html=1;fillColor=#FFFFFF;" vertex="1" parent="3W6WqJMpqGZ4H0qzBmMQ-1">
           <mxGeometry x="995" y="90" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="HCpisPJP8-vCLjsSUQ_C-3" value="事件通知下发库存盘点" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3W6WqJMpqGZ4H0qzBmMQ-1" source="l23pIWLlU_TnLgglJzo0-2" target="HCpisPJP8-vCLjsSUQ_C-0">
+        <mxCell id="HCpisPJP8-vCLjsSUQ_C-3" value="事件通知下发库存调整" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3W6WqJMpqGZ4H0qzBmMQ-1" source="l23pIWLlU_TnLgglJzo0-2" target="HCpisPJP8-vCLjsSUQ_C-0">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="890" y="370" as="sourcePoint" />
             <mxPoint x="970" y="370" as="targetPoint" />
