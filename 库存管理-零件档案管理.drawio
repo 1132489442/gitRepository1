@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T02:33:20.090Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="d4Gr2LF-nfR3dCv9pHdQ" version="16.4.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-01-25T02:47:22.500Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="NRSqEP5CaoWp5E7nDvTS" version="16.4.5" type="github" pages="5">
   <diagram id="lNsWtbDS4W3nq3S98e4k" name="时序图">
     <mxGraphModel dx="1505" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -342,6 +342,9 @@
         </mxCell>
         <mxCell id="8JyDRdHLk2CtLAmAHiw4-0" value="Par" style="shape=umlFrame;whiteSpace=wrap;html=1;width=40;height=20;" vertex="1" parent="jQHzYyg98gtsrOXya8PH-1">
           <mxGeometry x="140" y="220" width="800" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="f_nmvY13DJ6A5CxZaV2R-0" value="更新库存-行为" style="shape=umlFrame;whiteSpace=wrap;html=1;width=80;height=20;" vertex="1" parent="jQHzYyg98gtsrOXya8PH-1">
+          <mxGeometry x="130" y="130" width="810" height="620" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
