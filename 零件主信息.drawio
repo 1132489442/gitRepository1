@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T12:55:41.432Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="miIhkr0jpTHlfSumQzU6" version="16.4.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-25T13:33:50.475Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="pb5FSnBVU75jUWPtNwyK" version="16.4.5" type="github" pages="4">
   <diagram id="6bnHpI4cZpsdlI7_PELI" name="时序图">
-    <mxGraphModel dx="2332" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2332" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -132,11 +132,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FOFnYMLGnaj3QQaz7xhX" name="定时任务-行为图">
-    <mxGraphModel dx="1505" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1642" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="7OLGIQ1EorespxrLgJ10-0" />
         <mxCell id="7OLGIQ1EorespxrLgJ10-1" parent="7OLGIQ1EorespxrLgJ10-0" />
-        <mxCell id="IHvkTjEI3uxPASRba5FX-0" value="领域层-库存管理原子服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;" parent="7OLGIQ1EorespxrLgJ10-1" vertex="1">
+        <mxCell id="IHvkTjEI3uxPASRba5FX-0" value="领域层-零件基础原子服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;" parent="7OLGIQ1EorespxrLgJ10-1" vertex="1">
           <mxGeometry x="660" y="160" width="100" height="460" as="geometry" />
         </mxCell>
         <mxCell id="THMdplnS1te3H137m6_t-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;" parent="IHvkTjEI3uxPASRba5FX-0" vertex="1">
@@ -145,7 +145,7 @@
         <mxCell id="THMdplnS1te3H137m6_t-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;" parent="IHvkTjEI3uxPASRba5FX-0" vertex="1">
           <mxGeometry x="55" y="315" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="THMdplnS1te3H137m6_t-17" value="2.3.1保存零件信息()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=1.018;exitY=0.143;exitDx=0;exitDy=0;exitPerimeter=0;" parent="IHvkTjEI3uxPASRba5FX-0" source="THMdplnS1te3H137m6_t-13" target="THMdplnS1te3H137m6_t-16" edge="1">
+        <mxCell id="THMdplnS1te3H137m6_t-17" value="2.3.1保存零件主信息()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=1.018;exitY=0.143;exitDx=0;exitDy=0;exitPerimeter=0;" parent="IHvkTjEI3uxPASRba5FX-0" source="THMdplnS1te3H137m6_t-13" target="THMdplnS1te3H137m6_t-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="295" as="sourcePoint" />
             <Array as="points">
@@ -179,7 +179,7 @@
         <mxCell id="IHvkTjEI3uxPASRba5FX-3" value="零部件前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;" parent="7OLGIQ1EorespxrLgJ10-1" vertex="1">
           <mxGeometry x="240" y="160" width="100" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="THMdplnS1te3H137m6_t-14" value="2.3调用库存管理原子服务()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="7OLGIQ1EorespxrLgJ10-1" target="THMdplnS1te3H137m6_t-13" edge="1">
+        <mxCell id="THMdplnS1te3H137m6_t-14" value="2.3调用零件基础原子服务()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="7OLGIQ1EorespxrLgJ10-1" target="THMdplnS1te3H137m6_t-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="556" y="445" as="sourcePoint" />
           </mxGeometry>
@@ -191,7 +191,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="54kVwgG79NFkQRx_jsIe-0" value="Alt" style="shape=umlFrame;whiteSpace=wrap;html=1;width=30;height=20;" vertex="1" parent="7OLGIQ1EorespxrLgJ10-1">
-          <mxGeometry x="480" y="330" width="380" height="210" as="geometry" />
+          <mxGeometry x="480" y="330" width="400" height="210" as="geometry" />
         </mxCell>
         <mxCell id="54kVwgG79NFkQRx_jsIe-1" value="【校验通过】" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7OLGIQ1EorespxrLgJ10-1">
           <mxGeometry x="467" y="350" width="90" height="20" as="geometry" />
@@ -209,13 +209,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="A97mmvDs4ll5jp05zxJL-0" value="Loop" style="shape=umlFrame;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;width=50;height=15;" vertex="1" parent="7OLGIQ1EorespxrLgJ10-1">
-          <mxGeometry x="410" y="230" width="460" height="330" as="geometry" />
+          <mxGeometry x="410" y="230" width="480" height="330" as="geometry" />
         </mxCell>
         <mxCell id="mlTio9FG4z4qd6uqM1Vp-1" value="【每日一次】" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7OLGIQ1EorespxrLgJ10-1">
           <mxGeometry x="405" y="250" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="mlTio9FG4z4qd6uqM1Vp-2" value="生成零件主信息-时序" style="shape=umlFrame;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;width=130;height=20;" vertex="1" parent="7OLGIQ1EorespxrLgJ10-1">
-          <mxGeometry x="240" y="120" width="640" height="500" as="geometry" />
+          <mxGeometry x="240" y="120" width="660" height="500" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
