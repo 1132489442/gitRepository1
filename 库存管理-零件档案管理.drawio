@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T03:22:19.204Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="2VEpyriC6gGsjmDRJI7x" version="16.4.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-01-25T03:23:05.218Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Zo2-UmupzxOtRvcB9ZhY" version="16.4.5" type="github" pages="5">
   <diagram id="lNsWtbDS4W3nq3S98e4k" name="时序图">
     <mxGraphModel dx="1505" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -223,7 +223,7 @@
         <mxCell id="ro7JJnYaT4u80gMX1QE2-2" value="接口-BFF服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;" parent="jQHzYyg98gtsrOXya8PH-1" vertex="1">
           <mxGeometry x="414" y="160" width="100" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="ro7JJnYaT4u80gMX1QE2-6" value="领域层-零件基础原子服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;" parent="jQHzYyg98gtsrOXya8PH-1" vertex="1">
+        <mxCell id="ro7JJnYaT4u80gMX1QE2-6" value="领域层-库存管理原子服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;" parent="jQHzYyg98gtsrOXya8PH-1" vertex="1">
           <mxGeometry x="730" y="160" width="100" height="600" as="geometry" />
         </mxCell>
         <mxCell id="zhBlBkFvqONLSYn4LtM5-8" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontColor=#1A1A1A;" parent="ro7JJnYaT4u80gMX1QE2-6" target="n9qlJbwYI034_qC2gCOh-2" edge="1">
@@ -279,7 +279,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zhBlBkFvqONLSYn4LtM5-5" value="1.2调用基础原子服务()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontColor=#1A1A1A;" parent="jQHzYyg98gtsrOXya8PH-1" edge="1">
+        <mxCell id="zhBlBkFvqONLSYn4LtM5-5" value="1.2调用库存管理原子服务()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontColor=#1A1A1A;" parent="jQHzYyg98gtsrOXya8PH-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="615" y="360" as="sourcePoint" />
             <mxPoint x="779.5" y="360" as="targetPoint" />
@@ -315,7 +315,7 @@
         <mxCell id="xESUtIfooYuVSvWqqvjV-0" value="&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;Loop&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;fontColor=#393939;fillColor=#FFFFFF;width=40;height=20;" parent="jQHzYyg98gtsrOXya8PH-1" vertex="1">
           <mxGeometry x="530" y="490" width="400" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="RoTygO5Ej-8lMIle_u59-3" value="2.1调用基础原子服务()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fontColor=#393939;startSize=14;endSize=12;" parent="jQHzYyg98gtsrOXya8PH-1" target="RoTygO5Ej-8lMIle_u59-2" edge="1">
+        <mxCell id="RoTygO5Ej-8lMIle_u59-3" value="2.1调用库存管理原子服务()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fontColor=#393939;startSize=14;endSize=12;" parent="jQHzYyg98gtsrOXya8PH-1" target="RoTygO5Ej-8lMIle_u59-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="615" y="630" as="sourcePoint" />
           </mxGeometry>
@@ -343,7 +343,7 @@
         <mxCell id="8JyDRdHLk2CtLAmAHiw4-0" value="Par" style="shape=umlFrame;whiteSpace=wrap;html=1;width=40;height=20;" vertex="1" parent="jQHzYyg98gtsrOXya8PH-1">
           <mxGeometry x="140" y="220" width="800" height="530" as="geometry" />
         </mxCell>
-        <mxCell id="f_nmvY13DJ6A5CxZaV2R-0" value="更新库存-行为" style="shape=umlFrame;whiteSpace=wrap;html=1;width=80;height=20;" vertex="1" parent="jQHzYyg98gtsrOXya8PH-1">
+        <mxCell id="-y7MXpfB_4XQstnb4q79-0" value="更新库存-行为" style="shape=umlFrame;whiteSpace=wrap;html=1;width=80;height=20;" vertex="1" parent="jQHzYyg98gtsrOXya8PH-1">
           <mxGeometry x="130" y="130" width="810" height="620" as="geometry" />
         </mxCell>
       </root>
