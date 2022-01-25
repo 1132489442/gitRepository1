@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T03:20:21.170Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="eCVlZ5T8GeYnXeEGieDG" version="16.4.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-25T03:20:40.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="McWctLSebLZ1THuqUu7M" version="16.4.5" type="github" pages="6">
   <diagram id="umNzM8Ve97_fDtR-dAsz" name="时序图">
     <mxGraphModel dx="1806" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -449,7 +449,7 @@
             <mxPoint x="435" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T6Ad247SYB4x5uOYcLmW-14" value="1.1.2调用库存聚合()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;endSize=10;" parent="gMh_w9T7EPyNYKoedNwf-1" target="T6Ad247SYB4x5uOYcLmW-6" edge="1">
+        <mxCell id="T6Ad247SYB4x5uOYcLmW-14" value="1.1.2调用库存管理原子服务()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;endSize=10;" parent="gMh_w9T7EPyNYKoedNwf-1" target="T6Ad247SYB4x5uOYcLmW-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="615" y="382" as="sourcePoint" />
           </mxGeometry>
@@ -472,7 +472,7 @@
             <mxPoint x="609.5000000000002" y="270.28" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qH2-w-RTj7Nd3m8HIucO-0" value="更新库存盘点数-行为图" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=130;height=20;" vertex="1" parent="gMh_w9T7EPyNYKoedNwf-1">
+        <mxCell id="60y4eTAXlOxAThRkSFAt-0" value="更新库存盘点数-行为图" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=130;height=20;" vertex="1" parent="gMh_w9T7EPyNYKoedNwf-1">
           <mxGeometry x="180" y="120" width="750" height="440" as="geometry" />
         </mxCell>
       </root>
