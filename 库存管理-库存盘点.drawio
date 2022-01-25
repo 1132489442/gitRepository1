@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T03:21:03.800Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Qt40vnk0iBHmJy8h2v4t" version="16.4.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-25T03:31:47.875Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Bsz0mR3_keAEEdfg2SXX" version="16.4.5" type="github" pages="6">
   <diagram id="umNzM8Ve97_fDtR-dAsz" name="时序图">
     <mxGraphModel dx="1806" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -375,11 +375,8 @@
         <mxCell id="c68aO94vxfPeNaeGba8r-2" value="根据用户填入库存状态等条件筛选" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeColor=#b85450;fillColor=#f8cecc;size=7;" parent="cGxvXAa2omujSZtcGAt--1" vertex="1">
           <mxGeometry x="650" y="580" width="250" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="53IMTbSW35f-oVy029qn-0" value="alt:&amp;nbsp; 校验盘点类型" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#1A1A1A;fillColor=#FFFFFF;width=100;height=20;" vertex="1" parent="cGxvXAa2omujSZtcGAt--1">
+        <mxCell id="53IMTbSW35f-oVy029qn-0" value="Alt:&amp;nbsp; 校验盘点类型" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#1A1A1A;fillColor=#FFFFFF;width=100;height=20;" vertex="1" parent="cGxvXAa2omujSZtcGAt--1">
           <mxGeometry x="500" y="370" width="590" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="aZdIzE1b_x2don9Gj_lj-0" value="生成盘点清单-行为图" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=120;height=20;" vertex="1" parent="cGxvXAa2omujSZtcGAt--1">
-          <mxGeometry x="190" y="120" width="910" height="760" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -574,6 +571,9 @@
             <mxPoint x="500" y="310" as="sourcePoint" />
             <mxPoint x="440" y="310" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="4KY-NtSiqCTyZgfwN6mU-0" value="更新库存数-行为图" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=130;height=20;" vertex="1" parent="VwcgP75mEG6ZukQKdxs_-1">
+          <mxGeometry x="30" y="120" width="800" height="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
