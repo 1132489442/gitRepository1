@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T03:31:50.330Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="CW_Oc2IRTAIIqDLCBtF3" version="16.4.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-25T09:36:50.443Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="4O0qTixfsVAa3hTcRNwW" version="16.4.5" type="github" pages="6">
   <diagram id="umNzM8Ve97_fDtR-dAsz" name="时序图">
-    <mxGraphModel dx="1806" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1806" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -226,7 +226,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uT7HqaZZkiz_ikNXBzii" name="生成盘点清单行为图">
-    <mxGraphModel dx="1505" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2580" dy="1244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="cGxvXAa2omujSZtcGAt--0" />
         <mxCell id="cGxvXAa2omujSZtcGAt--1" parent="cGxvXAa2omujSZtcGAt--0" />
@@ -373,19 +373,40 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="c68aO94vxfPeNaeGba8r-2" value="根据用户填入库存状态等条件筛选" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeColor=#b85450;fillColor=#f8cecc;size=7;" parent="cGxvXAa2omujSZtcGAt--1" vertex="1">
-          <mxGeometry x="650" y="580" width="250" height="20" as="geometry" />
+          <mxGeometry x="827" y="610" width="190" height="20" as="geometry" />
         </mxCell>
         <mxCell id="53IMTbSW35f-oVy029qn-0" value="Alt:&amp;nbsp; 校验盘点类型" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#1A1A1A;fillColor=#FFFFFF;width=100;height=20;" vertex="1" parent="cGxvXAa2omujSZtcGAt--1">
           <mxGeometry x="500" y="370" width="590" height="300" as="geometry" />
         </mxCell>
         <mxCell id="WmqAb4WGtAGNm9Y3sYXY-0" value="生成盘点清单-行为图" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=120;height=20;" vertex="1" parent="cGxvXAa2omujSZtcGAt--1">
-          <mxGeometry x="190" y="120" width="910" height="760" as="geometry" />
+          <mxGeometry x="190" y="120" width="930" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="01-7FZM-cShx1oCcQ6wQ-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" vertex="1" parent="cGxvXAa2omujSZtcGAt--1">
+          <mxGeometry x="775" y="570" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="01-7FZM-cShx1oCcQ6wQ-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" vertex="1" parent="cGxvXAa2omujSZtcGAt--1">
+          <mxGeometry x="785" y="600" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="01-7FZM-cShx1oCcQ6wQ-4" value="1.1.2.1获取零件档案()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;endSize=10;exitX=0.987;exitY=0.125;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="cGxvXAa2omujSZtcGAt--1" source="01-7FZM-cShx1oCcQ6wQ-2" target="01-7FZM-cShx1oCcQ6wQ-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="420" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="820" y="580" />
+              <mxPoint x="820" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="01-7FZM-cShx1oCcQ6wQ-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="cGxvXAa2omujSZtcGAt--1" source="c68aO94vxfPeNaeGba8r-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="580" as="sourcePoint" />
+            <mxPoint x="820" y="600" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="i_zHCoiW6dh8BcUsylhJ" name="更新盘点结果行为图">
-    <mxGraphModel dx="1246" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1246" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="gMh_w9T7EPyNYKoedNwf-0" />
         <mxCell id="gMh_w9T7EPyNYKoedNwf-1" parent="gMh_w9T7EPyNYKoedNwf-0" />
