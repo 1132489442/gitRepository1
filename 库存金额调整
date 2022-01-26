@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T03:18:17.462Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="dsHnwI9MqpUEWK8NKhSj" version="16.4.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-26T02:15:48.082Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="uy7exmqI0J5nkW8Ckcmp" version="16.4.6" type="github" pages="4">
   <diagram id="K6y50GVgtAXHJ3oQSCxf" name="时序图">
-    <mxGraphModel dx="1806" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1209" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XKDUoo8fodvt92stpq9q" name="行为设计">
-    <mxGraphModel dx="1806" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1209" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="_K_Jtm2Ol_Yjrct9v4DW-0" />
         <mxCell id="_K_Jtm2Ol_Yjrct9v4DW-1" parent="_K_Jtm2Ol_Yjrct9v4DW-0" />
@@ -95,14 +95,14 @@
             <mxPoint x="479.5000000000002" y="370.27999999999986" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wnxptOFvPLtB-kwzHZ0t-2" value="库存金额调整-行为图" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=130;height=20;" vertex="1" parent="_K_Jtm2Ol_Yjrct9v4DW-1">
+        <mxCell id="wnxptOFvPLtB-kwzHZ0t-2" value="库存金额调整-行为" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;width=130;height=20;" parent="_K_Jtm2Ol_Yjrct9v4DW-1" vertex="1">
           <mxGeometry x="60" y="130" width="760" height="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="VZe5W3S-P6BDO0_0jj-s" name="事件设计">
-    <mxGraphModel dx="1806" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1209" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WkEhYLCNLF1F9oNTBdvM-0" />
         <mxCell id="WkEhYLCNLF1F9oNTBdvM-1" parent="WkEhYLCNLF1F9oNTBdvM-0" />
@@ -110,7 +110,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="um0tMVD2im-SjFLLG5LV" name="聚合根">
-    <mxGraphModel dx="1806" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1209" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0M60EH2XHKjjdK8FPoCG-0" />
         <mxCell id="0M60EH2XHKjjdK8FPoCG-1" parent="0M60EH2XHKjjdK8FPoCG-0" />
