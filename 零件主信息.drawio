@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-07T11:06:13.745Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="YDVfxajUN95EprDztfEc" version="16.5.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-02-07T11:10:43.411Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="q2Ofx_aOQK7SabJ5hPzt" version="16.5.3" type="github" pages="4">
   <diagram id="6bnHpI4cZpsdlI7_PELI" name="时序图">
-    <mxGraphModel dx="3779" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2686" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -192,7 +192,13 @@
         <mxCell id="LRd9EyxCTDxwuXBP93DP-62" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-830" y="730" width="550" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="LRd9EyxCTDxwuXBP93DP-63" value="零件主信息核心流程" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=20;" vertex="1" parent="1">
+        <mxCell id="LRd9EyxCTDxwuXBP93DP-64" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" target="LRd9EyxCTDxwuXBP93DP-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-310" y="310" as="sourcePoint" />
+            <mxPoint x="-390" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LRd9EyxCTDxwuXBP93DP-65" value="零件主信息核心流程" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=20;" vertex="1" parent="1">
           <mxGeometry x="-960" y="90" width="820" height="820" as="geometry" />
         </mxCell>
       </root>
