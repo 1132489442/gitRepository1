@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-13T13:02:37.547Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="PXAwE8EgdluaZ3MfHeCD" version="16.5.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-02-13T13:15:36.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="iBUhlHcMUYUZv_IodjYz" version="16.5.3" type="github" pages="5">
   <diagram id="6bnHpI4cZpsdlI7_PELI" name="时序图">
     <mxGraphModel dx="3159" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -205,11 +205,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FOFnYMLGnaj3QQaz7xhX" name="定时任务-行为图">
-    <mxGraphModel dx="1032" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1032" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="7OLGIQ1EorespxrLgJ10-0" />
         <mxCell id="7OLGIQ1EorespxrLgJ10-1" parent="7OLGIQ1EorespxrLgJ10-0" />
-        <mxCell id="IHvkTjEI3uxPASRba5FX-0" value="领域层-零件管理原子服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;" parent="7OLGIQ1EorespxrLgJ10-1" vertex="1">
+        <mxCell id="IHvkTjEI3uxPASRba5FX-0" value="领域层-库存管理原子服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;" parent="7OLGIQ1EorespxrLgJ10-1" vertex="1">
           <mxGeometry x="660" y="160" width="100" height="460" as="geometry" />
         </mxCell>
         <mxCell id="THMdplnS1te3H137m6_t-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;" parent="IHvkTjEI3uxPASRba5FX-0" vertex="1">
@@ -240,7 +240,7 @@
         <mxCell id="IHvkTjEI3uxPASRba5FX-3" value="零部件前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=#FFFFFF;fillColor=#FFFFFF;" parent="7OLGIQ1EorespxrLgJ10-1" vertex="1">
           <mxGeometry x="270" y="160" width="100" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="THMdplnS1te3H137m6_t-14" value="1.3调用零件管理原子服务()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="7OLGIQ1EorespxrLgJ10-1" target="THMdplnS1te3H137m6_t-13" edge="1">
+        <mxCell id="THMdplnS1te3H137m6_t-14" value="1.3调用库存管理原子服务()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="7OLGIQ1EorespxrLgJ10-1" target="THMdplnS1te3H137m6_t-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="556" y="445" as="sourcePoint" />
           </mxGeometry>
@@ -291,14 +291,14 @@
         <mxCell id="cknXCpRzvNItT4aBiv4q-1" value="Loop" style="shape=umlFrame;whiteSpace=wrap;html=1;width=60;height=20;" vertex="1" parent="7OLGIQ1EorespxrLgJ10-1">
           <mxGeometry x="450" y="220" width="450" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="BayCd0KsGBjY2b0vJ9sq-0" value="定时创建零件主信息-行为" style="shape=umlFrame;whiteSpace=wrap;html=1;width=140;height=20;" vertex="1" parent="7OLGIQ1EorespxrLgJ10-1">
+        <mxCell id="63p1vAb3d8XifB3c88Wd-0" value="定时创建零件主信息-行为" style="shape=umlFrame;whiteSpace=wrap;html=1;width=140;height=20;" vertex="1" parent="7OLGIQ1EorespxrLgJ10-1">
           <mxGeometry x="260" y="130" width="670" height="490" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="dGG8FJd8N7IwFIvMK75r" name="事件图">
-    <mxGraphModel dx="1806" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1806" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="RU_HmeFV_STFyEm7z6BS-0" />
         <mxCell id="RU_HmeFV_STFyEm7z6BS-1" parent="RU_HmeFV_STFyEm7z6BS-0" />
@@ -306,7 +306,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fTKao5kH5AFAM4wwmsIB" name="聚合根">
-    <mxGraphModel dx="1806" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1806" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="7-ZAPzwOO9HuGMdEz8zF-0" />
         <mxCell id="7-ZAPzwOO9HuGMdEz8zF-1" parent="7-ZAPzwOO9HuGMdEz8zF-0" />
@@ -518,7 +518,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FX3MtVXmibXrm6kMx84a" name="第 5 页">
-    <mxGraphModel dx="1032" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1032" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="-UIqBWWNGBVuv4L5VFWg-0" />
         <mxCell id="-UIqBWWNGBVuv4L5VFWg-1" parent="-UIqBWWNGBVuv4L5VFWg-0" />
